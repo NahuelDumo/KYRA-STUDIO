@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataProtectionUserConfig SchemaVersion="1">
+  <UserName>nahue</UserName>
+  <FriendlyName>Nahuel Dumo</FriendlyName>
+  <PCName>PC-NAHU</PCName>
+  <UserId>4b547eb1-365f-40e0-b40f-1a95430f24a2</UserId>
+  <Library>
+    <LibraryName>*2112ab0a-c86a-4ffe-a368-0de96e47012e</LibraryName>
+    <Folder>C:\Users\nahue\Music</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*e25b5812-be88-4bd9-94b0-29233477b6c3</LibraryName>
+    <Folder>C:\Users\nahue\OneDrive\Imágenes\Saved Pictures</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*491e922f-5643-4af4-a7eb-4e7a138d8174</LibraryName>
+    <Folder>C:\Users\nahue\Videos</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*2b20df75-1eda-4039-8097-38798227d5b7</LibraryName>
+    <Folder>C:\Users\nahue\OneDrive\Imágenes\Álbum de cámara</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*7b0db17d-9cd2-4a93-9733-46cc89022e7c</LibraryName>
+    <Folder>C:\Users\nahue\OneDrive\Documentos</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*a990ae9f-a03b-4e80-94bc-9912d7504104</LibraryName>
+    <Folder>C:\Users\nahue\OneDrive\Imágenes</Folder>
+  </Library>
+  <UserFolder>C:\Users\nahue\.android</UserFolder>
+  <UserFolder>C:\Users\nahue\.cache</UserFolder>
+  <UserFolder>C:\Users\nahue\.java</UserFolder>
+  <UserFolder>C:\Users\nahue\.m2</UserFolder>
+  <UserFolder>C:\Users\nahue\.matplotlib</UserFolder>
+  <UserFolder>C:\Users\nahue\.nbi</UserFolder>
+  <UserFolder>C:\Users\nahue\.VirtualBox</UserFolder>
+  <UserFolder>C:\Users\nahue\.vscode</UserFolder>
+  <UserFolder>C:\Users\nahue\ansel</UserFolder>
+  <UserFolder>C:\Users\nahue\curseforge</UserFolder>
+  <UserFolder>C:\Users\nahue\Documents</UserFolder>
+  <UserFolder>C:\Users\nahue\IdeaProjects</UserFolder>
+  <UserFolder>C:\Users\nahue\Pictures</UserFolder>
+  <UserFolder>C:\Users\nahue\PycharmProjects</UserFolder>
+  <UserFolder>C:\Users\nahue\VirtualBox VMs</UserFolder>
+  <UserFolder>C:\Users\nahue\WebstormProjects</UserFolder>
+  <UserFolder>C:\Users\nahue\Searches</UserFolder>
+  <UserFolder>C:\Users\nahue\OneDrive\Escritorio</UserFolder>
+  <UserFolder>C:\Users\nahue\OneDrive</UserFolder>
+  <UserFolder>C:\Users\nahue\Contacts</UserFolder>
+  <UserFolder>C:\Users\nahue\OneDrive\Imágenes</UserFolder>
+  <UserFolder>C:\Users\nahue\Favorites</UserFolder>
+  <UserFolder>C:\Users\nahue\Videos</UserFolder>
+  <UserFolder>C:\Users\nahue\Music</UserFolder>
+  <UserFolder>C:\Users\nahue\Downloads</UserFolder>
+  <UserFolder>C:\Users\nahue\OneDrive\Documentos</UserFolder>
+  <UserFolder>C:\Users\nahue\Links</UserFolder>
+  <UserFolder>C:\Users\nahue\Saved Games</UserFolder>
+  <LocalCatalogPath1>C:\Users\nahue\AppData\Local\Microsoft\Windows\FileHistory\Configuration\Catalog1.edb</LocalCatalogPath1>
+  <LocalCatalogPath2>C:\Users\nahue\AppData\Local\Microsoft\Windows\FileHistory\Configuration\Catalog2.edb</LocalCatalogPath2>
+  <StagingArea>
+    <StagingAreaPath>C:\Users\nahue\AppData\Local\Microsoft\Windows\FileHistory\Data</StagingAreaPath>
+    <StagingAreaMaximumCapacity>1272840314</StagingAreaMaximumCapacity>
+    <StagingAreaWarningThreshold>954630235</StagingAreaWarningThreshold>
+  </StagingArea>
+  <AvailabilityPolicies>
+    <TargetAbsenceTime>5</TargetAbsenceTime>
+    <TimeInUnprotectedState>3</TimeInUnprotectedState>
+  </AvailabilityPolicies>
+  <RetentionPolicies>
+    <RetentionPolicyType>DISABLED</RetentionPolicyType>
+    <MinimumRetentionAge>365</MinimumRetentionAge>
+  </RetentionPolicies>
+  <DPFrequency>3600</DPFrequency>
+  <DPStatus>DISABLED</DPStatus>
+  <Target>
+    <TargetName>Nuevo vol</TargetName>
+    <TargetUrl>D:\</TargetUrl>
+    <TargetVolumePath>\\?\Volume{3090080d-7659-4250-82e5-d40cba6fba58}\</TargetVolumePath>
+    <TargetDriveType>FIXED</TargetDriveType>
+    <TargetConfigPath1>nahue\PC-NAHU\Configuration\Config1.xml</TargetConfigPath1>
+    <TargetConfigPath2>nahue\PC-NAHU\Configuration\Config2.xml</TargetConfigPath2>
+    <TargetCatalogPath1>nahue\PC-NAHU\Configuration\Catalog1.edb</TargetCatalogPath1>
+    <TargetCatalogPath2>nahue\PC-NAHU\Configuration\Catalog2.edb</TargetCatalogPath2>
+    <TargetBackupStorePath>nahue\PC-NAHU\Data</TargetBackupStorePath>
+    <TargetWarningThreshold>98</TargetWarningThreshold>
+  </Target>
+</DataProtectionUserConfig>
