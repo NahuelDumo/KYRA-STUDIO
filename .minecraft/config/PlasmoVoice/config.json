@@ -1,0 +1,144 @@
+{
+  "servers": {
+    "81.182.220.191": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.210.235": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.215.121": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "188.36.144.190": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "188.36.145.170": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.217.126": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.217.159": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.218.134": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.217.68": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "172.17.1.142": {
+      "distance": 24,
+      "priorityDistance": 48
+    },
+    "81.182.222.221": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.221.16": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.220.209": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.209.192": {
+      "distance": 24,
+      "priorityDistance": 48
+    },
+    "81.182.216.207": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.215.195": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.215.152": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.208.251": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "81.182.209.30": {
+      "distance": 16,
+      "priorityDistance": 48
+    },
+    "127.0.0.1": {
+      "distance": 8,
+      "priorityDistance": 48
+    }
+  },
+  "playerVolumes": {
+    "9bc0c45d-37d4-323a-9604-95f3a2d3c157": 1.35,
+    "2a529670-3c75-333c-a06e-5b2adb1ad671": 1.0,
+    "f91df08d-f85e-369a-8ea9-dc6962c2bafe": 0.85,
+    "91a6332e-c1f1-4a81-aef1-ed1bd7bb7143": 1.5,
+    "0f62e0e5-afab-30d7-8349-008bffe6d094": 0.85
+  },
+  "whitelist": false,
+  "voiceVolume": 1.0,
+  "priorityVolume": 1.0,
+  "occlusion": false,
+  "speakerMuted": false,
+  "showIcons": 0,
+  "micIconPosition": "BOTTOM_CENTER",
+  "voiceActivation": false,
+  "voiceActivationThreshold": -30.0,
+  "microphoneAmplification": 1.0,
+  "rnNoise": false,
+  "microphoneMuted": false,
+  "javaxCapture": false,
+  "hrtf": false,
+  "directionalSources": false,
+  "directionalSourcesAngle": 145,
+  "compressor": true,
+  "compressorThreshold": -10,
+  "limiterThreshold": -6,
+  "visualizeDistance": true,
+  "keyBindings": {
+    "pushToTalk": [
+      {
+        "type": "KEYSYM",
+        "code": 280
+      }
+    ],
+    "priorityPushToTalk": [
+      {
+        "type": "KEYSYM",
+        "code": 348
+      }
+    ],
+    "muteMicrophone": [],
+    "muteChat": [],
+    "action": [
+      {
+        "type": "MOUSE",
+        "code": 1
+      }
+    ],
+    "increaseDistance": [
+      {
+        "type": "KEYSYM",
+        "code": 346
+      }
+    ],
+    "decreaseDistance": [],
+    "occlusion": []
+  },
+  "showPriorityVolume": true,
+  "micReverb": true,
+  "micReverbVolume": 1.0
+}

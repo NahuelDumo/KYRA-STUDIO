@@ -1,0 +1,12 @@
+
+[client]
+	#Internal
+	#Allowed Values: OPEN_EQUIPMENT_MENU, NONE
+	tutorialStep = "NONE"
+	crosshair = "craftingdead:standard"
+	displayBlood = false
+	#Allowed Values: OFF, KILL, HIT_AND_KILL
+	hitMarkerMode = "OFF"
+	killSoundEnabled = false
+	killSound = "minecraft:item.trident.return"
+

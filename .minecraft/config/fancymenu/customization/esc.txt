@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = mods/(no borrar)/logoo.png
+  orientation = top-centered
+  x = -78
+  width = 157
+  action = addtexture
+  actionid = ca568469-abc2-4b36-9987-70a6335a71461700011722337
+  y = 26
+  height = 50
+}
+

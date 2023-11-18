@@ -1,0 +1,243 @@
+
+[model_options]
+	#Slot 3
+	s3 = true
+	#Slot 4
+	s4 = true
+	#Shield
+	shield = true
+	#Slot 5
+	s5 = true
+	#Which active slot and equipment should move the item model away
+	slot_mover = "none,chest;z;+_none,chest,1;z;+_none,chest;z;+_none,chest;z;+_none,chest,3;z;+_none,chest,4;z;+_none,chest,legs,1;z;+_none,shield;z;+_none,shield;z;+_none;z;-_none;z;-"
+	#Slot 6
+	s6 = true
+	#Force server whitelist to players
+	serverwhitelist = true
+	#Slot 7
+	s7 = true
+	#Slot 8
+	s8 = true
+	#Slot 9
+	s9 = true
+	#Banner
+	banner = false
+	#Blacklists item that are normally visible
+	blacklist = "craftingdead:fire_axe,craftingdead:golf_club,craftingdead:sledgehammer,craftingdead:shovel,craftingdead:hatchet,craftingdead:weaponized_scythe,craftingdead:pickaxe,zombie_extreme:fireaxe,zombie_extreme:bat,zombie_extreme:cleaver,zombie_extreme:knifesilicon,zombie_extreme:knife,zombie_extreme:crowbar,zombie_extreme:iceaxe,zombie_extreme:golfclub,zombie_extreme:policebaton,zombie_extreme:katana,zombie_extreme:wrench,zombie_extreme:electrokatana,zombie_extreme:machete,zombie_extreme:pipe,zombie_extreme:hammer,zombie_extreme:butcher_knife,zombie_extreme:militarymachete,zombie_extreme:hunter_knife,zombie_extreme:sledge_saw,zombie_extreme:raider_hammer,zombie_extreme:homemade_cudgel,zombie_extreme:electric_machete,bow,black_banner,dark_blue_banner,dark_green_banner,dark_aqua_banner,dark_red_banner,dark_purple_banner,gold_banner,gray_banner,dark_gray_banner,blue_banner,green_banner,aqua_banner,red_banner,light_purple_banner,yellow_banner,white_banner,shield,fishing_rod,crossbow,trident,wooden_sword,stone_sword,iron_sword,golden_sword,diamond_sword,netherite_sword,wooden_shovel,stone_shovel,iron_shovel,golden_shovel,diamond_shovel,netherite_shovel,wooden_axe,stone_axe,iron_axe,golden_axe,diamond_axe,netherite_axe,wooden_pickaxe,stone_pickaxe,iron_pickaxe,golden_pickaxe,diamond_pickaxe,netherite_pickaxe,wooden_hoe,stone_hoe,iron_hoe,golden_hoe,diamond_hoe,netherite_hoe,compass,flint_and_steel,fishing_rod,lead"
+	#Whitelists item that are normally not visible
+	whitelist = "empty,tac:espadon,tac:m82a2,tac:dp28,tac:mgl_40mm,tac:pkp_penchenberg,tac:m60,tac:rpg7,tac:scar_h,tac:sig_mcx_spear,tac:m249,tac:m79,tac:scar_l,tac:m16a4,tac:hk416_a5,tac:mg42,tac:aa_12,tac:mp9,tac:vector45,tac:sten_mk_ii_oss,tac:ai_awp,tac:de_lisle,tac:fr_f2,tac:m24,tac:deagle_357,tac:mk23,tac:glock_18,tac:ar_10,tac:mk47,tac:qbz_191,tac:mk14,tac:qbz_95,tac:ar_15_hellmouth,tac:x95r,tac:mp7,tac:hk_mp5a5,tac:m16a1,tac:m4,tac:ak47,tac:sks_tactical,tac:sti2011,tac:cz75_auto,tac:m92fs,tac:glock_17,tac:m1014,tac:spas_12,tac:mosberg590,tac:fn_fal,tac:type81_x,tac:mosin,tac:kar98,tac:m1_garand,tac:sks,tac:springfield_1903,tac:smle_iii,tac:m1911,tac:vz61,tac:cz75,tac:qsz92g1,tac:micro_uzi,tac:ppsh_41,tac:m1928,tac:sten_mk_ii,tac:m1a1_smg,tac:db_short,tac:m870_classic,tac:db_long,tac:m1873,tac:walther_ppk,tac:c96"
+	#Players can change the position and rotation of the displayed items
+	can_change_pos_and_rot = false
+	#Body part attachment to a slot
+	attachment = "1-body,2-body,3-body,4-body,5-body,6-body,7-body,8-body,9-body,shield-body,banner-head"
+	#Force server blacklist to players
+	serverblacklist = true
+	#Players can hide items
+	canhideitems = false
+	#Players can change the attachment of the slots
+	can_change_attachment = false
+	#Slot 1
+	s1 = true
+	#Slot 2
+	s2 = true
+
+	[model_options.positions_rotations]
+		#z rotation29
+		#Range: > -2147483648
+		z_rotationn29 = 0
+		#x rotation9
+		#Range: > -2147483648
+		x_rotation9 = 90
+		#y position22
+		#Range: > -2147483648
+		y_position22 = 0
+		#y rotation31
+		#Range: > -2147483648
+		y_rotation31 = 0
+		#x rotation6
+		#Range: > -2147483648
+		x_rotation6 = 90
+		#x rotation3
+		#Range: > -2147483648
+		x_rotation3 = 90
+		#x position6
+		#Range: > -2147483648
+		x_position6 = 30
+		#y position28
+		#Range: > -2147483648
+		y_position28 = 0
+		#y position25
+		#Range: > -2147483648
+		y_position25 = 0
+		#x position0
+		#Range: > -2147483648
+		x_position0 = 23
+		#x rotation0
+		#Range: > -2147483648
+		x_rotation0 = 90
+		#x position3
+		#Range: > -2147483648
+		x_position3 = -38
+		#z rotation20
+		#Range: > -2147483648
+		z_rotationn20 = 0
+		#x position30
+		#Range: > -2147483648
+		x_position30 = 0
+		#x position9
+		#Range: > -2147483648
+		x_position9 = -45
+		#z rotation23
+		#Range: > -2147483648
+		z_rotationn23 = 90
+		#z rotation26
+		#Range: > -2147483648
+		z_rotationn26 = 90
+		#z rotation17
+		#Range: > -2147483648
+		z_rotationn17 = 0
+		#x position27
+		#Range: > -2147483648
+		x_position27 = 0
+		#y rotation28
+		#Range: > -2147483648
+		y_rotation28 = 0
+		#x position24
+		#Range: > -2147483648
+		x_position24 = 24
+		#y position10
+		#Range: > -2147483648
+		y_position10 = 25
+		#z position14
+		#Range: > -2147483648
+		z_position14 = -21
+		#z position17
+		#Range: > -2147483648
+		z_position17 = -21
+		#y rotation22
+		#Range: > -2147483648
+		y_rotation22 = 45
+		#y rotation25
+		#Range: > -2147483648
+		y_rotation25 = -45
+		#y position19
+		#Range: > -2147483648
+		y_position19 = 116
+		#y position16
+		#Range: > -2147483648
+		y_position16 = 25
+		#x rotation30
+		#Range: > -2147483648
+		x_rotation30 = 0
+		#z position11
+		#Range: > -2147483648
+		z_position11 = -21
+		#y position13
+		#Range: > -2147483648
+		y_position13 = 25
+		#z rotation11
+		#Range: > -2147483648
+		z_rotationn11 = 0
+		#x position21
+		#Range: > -2147483648
+		x_position21 = 24
+		#z rotation14
+		#Range: > -2147483648
+		z_rotationn14 = 0
+		#x position15
+		#Range: > -2147483648
+		x_position15 = -31
+		#y rotation16
+		#Range: > -2147483648
+		y_rotation16 = 180
+		#x position18
+		#Range: > -2147483648
+		x_position18 = 0
+		#y rotation19
+		#Range: > -2147483648
+		y_rotation19 = 90
+		#x position12
+		#Range: > -2147483648
+		x_position12 = 16
+		#z position26
+		#Range: > -2147483648
+		z_position26 = -12
+		#y rotation10
+		#Range: > -2147483648
+		y_rotation10 = 180
+		#z position29
+		#Range: > -2147483648
+		z_position29 = 0
+		#y rotation13
+		#Range: > -2147483648
+		y_rotation13 = 180
+		#y rotation1
+		#Range: > -2147483648
+		y_rotation1 = 180
+		#x rotation24
+		#Range: > -2147483648
+		x_rotation24 = 90
+		#y rotation7
+		#Range: > -2147483648
+		y_rotation7 = 180
+		#y rotation4
+		#Range: > -2147483648
+		y_rotation4 = 180
+		#x rotation21
+		#Range: > -2147483648
+		x_rotation21 = -90
+		#z position8
+		#Range: > -2147483648
+		z_position8 = -21
+		#z position20
+		#Range: > -2147483648
+		z_position20 = 23
+		#z position23
+		#Range: > -2147483648
+		z_position23 = 12
+		#z position5
+		#Range: > -2147483648
+		z_position5 = -21
+		#z position2
+		#Range: > -2147483648
+		z_position2 = -21
+		#x rotation27
+		#Range: > -2147483648
+		x_rotation27 = 0
+		#y position31
+		#Range: > -2147483648
+		y_position31 = 0
+		#z rotation5
+		#Range: > -2147483648
+		z_rotationn5 = 0
+		#x rotation12
+		#Range: > -2147483648
+		x_rotation12 = 90
+		#y position7
+		#Range: > -2147483648
+		y_position7 = 25
+		#z position32
+		#Range: > -2147483648
+		z_position32 = 0
+		#z rotation8
+		#Range: > -2147483648
+		z_rotationn8 = 0
+		#y position1
+		#Range: > -2147483648
+		y_position1 = 25
+		#z rotation32
+		#Range: > -2147483648
+		z_rotationn32 = 0
+		#x rotation18
+		#Range: > -2147483648
+		x_rotation18 = 180
+		#z rotation2
+		#Range: > -2147483648
+		z_rotationn2 = 0
+		#x rotation15
+		#Range: > -2147483648
+		x_rotation15 = 90
+		#y position4
+		#Range: > -2147483648
+		y_position4 = 25
+

@@ -1,0 +1,34 @@
+
+["Fuel Items"]
+	#Defines items that can use as fuel
+	#Format: [["item-id-1", amount-1], ["item-id-2", amount-2], ...etc]
+	Boiler = [["minecraft:coal", 37], ["minecraft:charcoal", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000]]
+	Icebox = [["minecraft:snowball", 37], ["minecraft:clay", 37], ["minecraft:snow_block", 333], ["minecraft:water_bucket", 333], ["minecraft:ice", 333], ["minecraft:packed_ice", 1000]]
+	#Negative values indicate cold fuel
+	Hearth = [["minecraft:coal", 37], ["minecraft:charcoal", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000], ["minecraft:snowball", -37], ["minecraft:clay", -37], ["minecraft:snow_block", -333], ["minecraft:water_bucket", -333], ["minecraft:ice", -333], ["minecraft:packed_ice", -1000]]
+
+[Insulation]
+	#Defines the items that provide insulation when worn
+	#Format: [["item-id-1", amount-1], ["item-id-2", amount-2], ...etc]
+	"Insulated Armor" = [["minecraft:leather_helmet", 4], ["minecraft:leather_chestplate", 7], ["minecraft:leather_leggings", 5], ["minecraft:leather_boots", 4], ["minecraft:chainmail_helmet", 2], ["minecraft:chainmail_chestplate", 5], ["minecraft:chainmail_leggings", 3], ["minecraft:chainmail_boots", 2], ["minecraft:iron_helmet", 3], ["minecraft:iron_chestplate", 6], ["minecraft:iron_leggings", 4], ["minecraft:iron_boots", 3], ["minecraft:golden_helmet", 5], ["minecraft:golden_chestplate", 8], ["minecraft:golden_leggings", 6], ["minecraft:golden_boots", 5], ["minecraft:diamond_helmet", 6], ["minecraft:diamond_chestplate", 9], ["minecraft:diamond_leggings", 7], ["minecraft:diamond_boots", 6], ["minecraft:netherite_helmet", 7], ["minecraft:netherite_chestplate", 10], ["minecraft:netherite_leggings", 8], ["minecraft:netherite_boots", 7]]
+	#Defines the items that can be used for insulating armor in the Sewing Table
+	#Format: [["item-id-1"], ["item-id-2"], ...etc]
+	"Insulation Ingredients" = ["minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots"]
+
+[Consumables]
+	#Defines items that affect the player's temperature when consumed
+	#Format: [[item-id-1, amount-1], [item-id-2, amount-2], ...etc]
+	#Negative values are cold foods, positive values are hot foods
+	"Temperature-Affecting Foods" = []
+	#Defines the amount a player's body temperature will change by when using a waterskin
+	#Range: > 0
+	"Waterskin Strength" = 50
+
+["Soulspring Lamp"]
+	#Defines the dimensions that the Soulspring Lamp can be used in
+	#Format: ["dimension-id-1", "dimension-id-2", ...etc]
+	"Valid Dimensions" = ["minecraft:the_nether"]
+	#Defines the items that the Soulspring Lamp can use as fuel and their values
+	#Format: ["item-id-1", "item-id-2", ...etc]
+	"Fuel Items" = ["minecraft:warped_stem", "minecraft:warped_hyphae", "minecraft:stripped_warped_stem", "minecraft:stripped_warped_hyphae", "minecraft:crimson_stem", "minecraft:crimson_hyphae", "minecraft:stripped_crimson_stem", "minecraft:stripped_crimson_hyphae"]
+

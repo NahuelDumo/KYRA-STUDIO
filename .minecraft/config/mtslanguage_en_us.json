@@ -1,0 +1,2477 @@
+{
+  "core": {
+    "death.bullet.null": "%s was shot by a spy",
+    "death.bullet.player": "%s was shot by %s",
+    "death.propeller.null": "%s was shredded by a propeller",
+    "death.propeller.player": "%s was shredded by %s's propeller",
+    "death.jet_intake.null": "%s was sucked into a jet engine",
+    "death.jet_intake.player": "%s was sucked into %s's jet engine",
+    "death.jet_exhaust.null": "%s was burnt to a crisp by a jet engine",
+    "death.jet_exhaust.player": "%s was burnt to a crisp by %s's jet engine",
+    "death.wheel.null": "%s was run over",
+    "death.wheel.player": "%s was run over by %s",
+    "death.crash.null": "%s died in a crash",
+    "death.crash.player": "%s crashed their vehicle and killed %s",
+    "gui.confirm": "CONFIRM",
+    "gui.masterconfig": "Open configuration screen",
+    "gui.signalcontroller.scan": "Scan For Signals & Components",
+    "gui.signalcontroller.scandistance": "Radius: ",
+    "gui.signalcontroller.scancenter": "Center (X/Z): ",
+    "gui.signalcontroller.scanfound": "Found: ",
+    "gui.signalcontroller.righthanddrive": "Right-Hand Drive",
+    "gui.signalcontroller.lefthanddrive": "Left-Hand Drive",
+    "gui.signalcontroller.timemode": "Time Delay",
+    "gui.signalcontroller.triggermode": "Vehicle Trigger",
+    "gui.signalcontroller.primaryaxis": "Main Axis: ",
+    "gui.signalcontroller.lanewidth": "Lane Width: ",
+    "gui.signalcontroller.greenmaintime": "Green Time (Main): ",
+    "gui.signalcontroller.greencrosstime": "Green Time (Cross): ",
+    "gui.signalcontroller.yellowmaintime": "Yellow Time (Main): ",
+    "gui.signalcontroller.yellowcrosstime": "Yellow Time (Cross): ",
+    "gui.signalcontroller.allredtime": "All Red Time: ",
+    "gui.signalcontroller.lanesettings": "SIGNAL SETTINGS",
+    "gui.signalcontroller.leftlanes": "# Left Lanes: ",
+    "gui.signalcontroller.centerlanes": "# Center Lanes: ",
+    "gui.signalcontroller.rightlanes": "# Right Lanes: ",
+    "gui.signalcontroller.roadwidth": "Road Width: ",
+    "gui.signalcontroller.centerdist": "Dist Center->Road: ",
+    "gui.signalcontroller.mediandist": "Dist Road->Median: ",
+    "gui.part_bench.weight": "Weight (kg): ",
+    "gui.part_bench.fuel": "Fuel Cap. (mb): ",
+    "gui.part_bench.controllers": "Drivers/Pilots: ",
+    "gui.part_bench.passengers": "Passengers: ",
+    "gui.part_bench.cargo": "Cargo: ",
+    "gui.part_bench.mixed": "Mixed: ",
+    "gui.part_bench.engine": "Engine Size: ",
+    "gui.part_bench.wheel": "Wheel Size: ",
+    "gui.part_bench.color": "Color: ",
+    "gui.panel.trim_roll": "ROLL TRIM",
+    "gui.panel.trim_pitch": "PITCH TRIM",
+    "gui.panel.trim_yaw": "YAW TRIM",
+    "gui.panel.reverse": "REV",
+    "gui.panel.gear": "GEAR",
+    "gui.panel.beacon": "BEACON",
+    "gui.panel.autopilot": "AUTO",
+    "gui.instruments.main": "Main Instruments",
+    "gui.instruments.panel": "Control Panel",
+    "gui.instruments.clear": "CLEAR",
+    "gui.instruments.idle": "Select an instrument.",
+    "gui.instruments.decide": "Click an instrument to add.",
+    "gui.config.header.rendering": "RENDERING",
+    "gui.config.header.config": "CONFIG",
+    "gui.config.header.controls": "CONTROLS",
+    "gui.config.controls.title": "Choose a configuration to change: ",
+    "gui.config.controls.volume": "Volume: ",
+    "gui.config.controls.aircraft.keyboard": "AIRCRAFT KEYBOARD",
+    "gui.config.controls.aircraft.joystick": "AIRCRAFT JOYSTICK",
+    "gui.config.controls.car.keyboard": "CAR/BOAT KEYBOARD",
+    "gui.config.controls.car.joystick": "CAR/BOAT JOYSTICK",
+    "gui.config.joystick.error": "ERROR: MTS could not initialize the control system!  This is likely due to a device mis-representing itself as a joystick to Java.  Mice have been known to have this issue, especially Corsair mice, so try a different mouse.  You may also try un-plugging your mouse, and then opening this GUI to re-poll the joysticks.  This won't make controls work on boot, but can be used if you only have one mouse.",
+    "gui.config.joystick.disabled": "ERROR: The control system locked up when MTS tried to initialize it.  This is likely a driver issue, and happens for some reason on some machines.  The root cause is not known, but if you find out how to make this erorr go away, let us know!  For now, joysick support will be disabled.",
+    "gui.config.joystick.select": "Choose a joystick: ",
+    "gui.config.joystick.name": "Name: ",
+    "gui.config.joystick.mapping": "Mapping",
+    "gui.config.joystick.deadzone": "Dead-zone: ",
+    "gui.config.joystick.state": "State: ",
+    "gui.config.joystick.assignment": "Assigned to: ",
+    "gui.config.joystick.cancel": "Cancel",
+    "gui.config.joystick.clear": "Clear Assignment",
+    "gui.config.joystick.choosemap": "Choose what gets mapped to this button.",
+    "gui.config.joystick.calibrate1": "Move axis until numbers stop changing.",
+    "gui.config.joystick.calibrate2": "Then hit confirm to save settings.",
+    "gui.config.joystick.axismode": "Axis mode: ",
+    "gui.config.joystick.normal": "Normal",
+    "gui.config.joystick.invert": "Inverted",
+    "gui.packmissing.title": "!ERROR!",
+    "gui.packmissing.text": "MTS has detected that it has been started without a content pack.  This will result in NO vehicles being present!  If you do NOT have a content pack yet installed, please see the Curse page for this mod for a link to one.  If you DID download a pack ensure that it is the same place as all your other mods.  If the pack is in that location, and you are still seeing this message, ensure you are running the correct pack version.",
+    "interact.key.lock": "Vehicle locked!",
+    "interact.key.unlock": "Vehicle unlocked!",
+    "interact.key.bind": "Key bound to vehicle.  Ready for locking/unlocking use.",
+    "interact.key.notowner": "This key is not for any vehicle, and only the owner of this vehicle may make new keys!",
+    "interact.key.wrongkey": "This key does not go to this vehicle!",
+    "interact.fuelpump.nofuel": "The pump is empty.  Either insert fuel into the pump via buckets, or connect it to a fluid or electrical system from the bottom.",
+    "interact.fuelpump.fullitems": "This pump is set up to require payment for fuel, but it cannot accept more items.  Contact the owner to empty it!",
+    "interact.fuelpump.toofar": "The pump is too far away from the vehicle.  The pump should be no more than 16 blocks away.",
+    "interact.fuelpump.wrongtype": "This pump does not contain the same fuel type as what is in the vehicle.",
+    "interact.fuelpump.noengine": "There is no engine in this vehicle.  Removing engines from vehicles resets their fuel tank, so fueling this vehicle would do nothing!",
+    "interact.fuelpump.wrongengines": "The contents in this pump is not a valid fuel for the engines in the vehicle.  Check the manual for details.",
+    "interact.fuelpump.connect": "Connected and fueling.",
+    "interact.fuelpump.complete": "Vehicle is full, disconnecting.",
+    "interact.fuelpump.empty": "Pump is empty, disconnecting.",
+    "interact.fuelpump.disconnect": "Disconnecting and stopping pumping.",
+    "interact.road.set": "Setting first dynamic road point.",
+    "interact.road.alreadyconnected": "This road segment is already connected to another road.",
+    "interact.road.lanemismatchfirst": "The number of lanes at the road segment clicked first does not match the number of lanes for this road.",
+    "interact.road.lanemismatchsecond": "The number of lanes at the road segment just clicked does not match the number of lanes for this road.",
+    "interact.road.blocked": "No space found to place the master block for this road.  Try a less crowded area?",
+    "interact.road.same": "Both the first point and the second point clicked are the same block.  Reset and try again.",
+    "interact.road.toofar": "The two points clicked are too far apart.  Either find closer points, or increase the distance in the config file.",
+    "interact.road.blockingblocks": "There are blocks blocking the placement of this road.  Break the highlighted red ones, and then click the blue master road block to continue.",
+    "interact.jerrycan.empty": "This jerrycan is empty and cannot fuel this vehicle.",
+    "interact.jerrycan.wrongtype": "This jerrycan does not contain the same liquid as what is in the vehicle.",
+    "interact.jerrycan.wrongengines": "The contents in this jerrycan is not a valid fuel for the engines in the vehicle.  Check the manual for details.",
+    "interact.jerrycan.noengine": "There is no engine in this vehicle.  Removing engines from vehicles resets their fuel tank, so fueling this vehicle would do nothing!",
+    "interact.jerrycan.toofull": "This vehicle is already full of fuel.  You cannot add any more.",
+    "interact.jerrycan.success": "Added 1000mb of fluid to this vehicle.",
+    "interact.vehicle.seattaken": "This seat is taken!",
+    "interact.vehicle.locked": "This vehicle is locked!",
+    "interact.vehicle.owned": "You are not the owner of this vehicle and therefore cannot change it or its parts!",
+    "interact.vehicle.needkey": "You must have the key of this vehicle to start it!",
+    "interact.vehicle.nospace": "There is not enough space to place down this vehicle here.",
+    "interact.vehicle.cantremoveinventory": "You cannot remove this part because it is not empty!",
+    "interact.vehicle.jumperpack": "Charged vehicle battery to maximum.",
+    "interact.jumpercable.firstlink": "Linking first engine to jumper cable.",
+    "interact.jumpercable.secondlink": "Engines linked.  Transmitting power.",
+    "interact.jumpercable.linkdropped": "The two engines have moved too far apart from one another.  Breaking link.",
+    "interact.jumpercable.powerequal": "The two engines now have the same battery level.  Breaking link.",
+    "interact.jumpercable.alreadylinked": "This engine is already linked to another engine and cannot be linked.",
+    "interact.jumpercable.toofar": "The two engines are too far away.  They should be no further than 16 blocks apart.",
+    "interact.jumpercable.samevehicle": "The two engines are on the same vehicle.  That's not going to work well..",
+    "interact.fuelhose.firstlink": "Source tank linked to fuel hose.",
+    "interact.fuelhose.secondlink": "Linked to tank/vehicle.  Transfering fluid.",
+    "interact.fuelhose.linkdropped": "The linked tanks have moved too far apart from one another.  Breaking link.",
+    "interact.fuelhose.tankempty": "Source tank is empty, disconnecting.",
+    "interact.fuelhose.tankfull": "Destination tank is full, disconnecting.",
+    "interact.fuelhose.alreadylinked": "This tank is already linked to another tank and cannot be linked.",
+    "interact.fuelhose.toofar": "The two tanks are too far away.  They should be no further than 16 blocks apart.",
+    "interact.fuelhose.differentfluids": "The source and destination tanks do not contain the same fluid and cannot be linked.",
+    "interact.repair.pass": "Repaired vehicle HP by %s.  HP is now at %s of %s.",
+    "interact.repair.noneed": "This vehicle is already at full health and doesn't need to be repaired.",
+    "interact.repair.fail": "This vehicle is totaled and cannot be repaired with this repair pack.  Only special repair packs can repair totaled vehicles.",
+    "interact.repair.toosoon": "You cannot repair this vehicle now.  Wait 10 seconds between repairs.",
+    "interact.trailer.connected": "Trailer connected.",
+    "interact.trailer.disconnected": "Trailer disconnected.",
+    "interact.trailer.notfound": "No trailers were found anywhere near this vehicle.",
+    "interact.trailer.toofar": "The trailer is too far from the vehicle.",
+    "interact.trailer.wronghitch": "This vehicle does not have the correct hitch for this trailer.",
+    "interact.trailer.mismatch": "A hitch was found that is close enough to connect, but was not the correct type.  Also, a matching hitch was found, but it was too far to connect.  Are you trying to use the wrong hitch?",
+    "interact.trailer.alreadytowed": "The only nearby vehicle is already being towed.",
+    "interact.trailer.feedbackloop": "The only nearby vehicles are being towed by this vehicle, towing would result in an infinite towing loop.",
+    "iteminfo.scanner": "Hover over a part box to see what can be placed at that slot.\nSneak while using to cycle slower.",
+    "iteminfo.wrench": "Attack a vehicle part to remove it.\nSneak-attack a vehicle to remove entire vehicle.\nUse on vehicle to change instruments.\nSneak-use on vehicle or blocks to change text.\nUse on pole components to remove them.\nUse on fuel pumps you placed to change prices.",
+    "iteminfo.screwdriver": "Like a wrench, but used only to remove specific parts that wrenches cannot.  Does not interact with blocks or other things.",
+    "iteminfo.paintgun": "Use on a vehicle, a part, decor, or sign to change its color.\nNote: Not all things you can click will have multiple colors.",
+    "iteminfo.key": "Sneak-use on cars to take ownership, right-click to lock/unlock.",
+    "iteminfo.ticket": "Right-click on a vehicle to load nearby entities.\nRight-click on a seat to load just that seat.\nSneak-click on a vehicle to unload all entities.\nNote: Will not unload players.",
+    "iteminfo.fuelhose": "Use on a vehicle tank to select.\nUse on second tank or vehicle to link.\nHose will transfer liquids from tank 1 to selected.\nHose will stop when tank 1 is empty, selected is full or if tank 1 and selected are too far away.",
+    "iteminfo.jumpercables": "Use on an engine to select.\nUse on second engine to link.\nLinked engines will exchange power.\nEngines will un-link when power is even or if they get too far away.",
+    "iteminfo.jumperpack": "Use on a vehicle to charge battery to max level.",
+    "iteminfo.repairpack": "Use on a vehicle to repair it.  This pack heals the vehicle: ",
+    "iteminfo.repairpack.untotal": "This repair pack is able to repair totaled vehicles as well.",
+    "iteminfo.y2kbutton": "Use in a world to turn off all vehicle engines, engage their parking brakes, and turn off their lights.\nOnly usable by admins.",
+    "iteminfo.engine.automatic": "Transmission: Automatic",
+    "iteminfo.engine.manual": "Transmission: Manual",
+    "iteminfo.engine.gearratios": "Gear Ratios: ",
+    "iteminfo.engine.jetpowerfactor": "Jet Power: ",
+    "iteminfo.engine.bypassratio": "Bypass Ratio: ",
+    "iteminfo.engine.maxrpm": "Max Possible RPM: ",
+    "iteminfo.engine.maxsaferpm": "Max safe RPM: ",
+    "iteminfo.engine.fuelconsumption": "Fuel use (mb/t): ",
+    "iteminfo.engine.superchargerfuelconsumption": "Supercharger fuel use (mb/t): ",
+    "iteminfo.engine.superchargerefficiency": "Supercharger efficiency: ",
+    "iteminfo.engine.fueltype": "Fuel type: ",
+    "iteminfo.engine.fluids": "Takes Fluids: ",
+    "iteminfo.engine.hours": "Runtime hours: ",
+    "iteminfo.ground_device.diameter": "Diameter: ",
+    "iteminfo.ground_device.motivefrictionmotivefriction": "Power friction: ",
+    "iteminfo.ground_device.lateralfriction": "Turning friction: ",
+    "iteminfo.ground_device.frictionmodifiers": "Friction Modifiers: ",
+    "iteminfo.ground_device.rotatesonshaft_true": "Is a wheel",
+    "iteminfo.ground_device.rotatesonshaft_false": "Is NOT a wheel",
+    "iteminfo.ground_device.canfloat_true": "Floats",
+    "iteminfo.ground_device.canfloat_false": "Does not float",
+    "iteminfo.propeller.staticPitch": "Static Pitch",
+    "iteminfo.propeller.dynamicPitch": "Dynamic Pitch",
+    "iteminfo.propeller.pitch": "Pitch: ",
+    "iteminfo.propeller.diameter": "Diameter: ",
+    "iteminfo.gun.diameter": "Barrel Diameter (mm): ",
+    "iteminfo.gun.caseRange": "Case Range (mm): ",
+    "iteminfo.gun.fireDelay": "Fire Delay (ticks): ",
+    "iteminfo.gun.muzzleVelocity": "Velocity (blk/s): ",
+    "iteminfo.gun.capacity": "Bullet Capacity: ",
+    "iteminfo.gun.autoReload": "Auto-Reloads",
+    "iteminfo.gun.yawRange": "Yaw Range: ",
+    "iteminfo.gun.pitchRange": "Pitch Range: ",
+    "iteminfo.bullet.type.explosive": "Explosive Bullet",
+    "iteminfo.bullet.type.incendiary": "Incendiary Bullet",
+    "iteminfo.bullet.type.armor_piercing": "Armor Piercing Bullet",
+    "iteminfo.bullet.type.water": "Water Bullet",
+    "iteminfo.bullet.pellets": "Pellets: ",
+    "iteminfo.bullet.diameter": "Diameter (mm): ",
+    "iteminfo.bullet.caseLength": "Case Length (mm): ",
+    "iteminfo.bullet.penetration": "Penetration (mm): ",
+    "iteminfo.bullet.quantity": "Quantity: ",
+    "iteminfo.interactable.capacity": "Capacity: ",
+    "iteminfo.jerrycan.fill": "Fill this can by right-clicking a fuel pump.",
+    "iteminfo.jerrycan.drain": "Fill a vehicle by right-clicking with a full can.",
+    "iteminfo.jerrycan.empty": "This can is currently empty.",
+    "iteminfo.jerrycan.contains": "This can contains: ",
+    "input.mod": "Mod",
+    "input.camlock": "CamLock",
+    "input.yaw": "Yaw",
+    "input.yaw_r": "YawRight",
+    "input.yaw_l": "YawLeft",
+    "input.pitch": "Pitch",
+    "input.pitch_u": "PitchUp",
+    "input.pitch_d": "PitchDown",
+    "input.roll": "Roll",
+    "input.roll_r": "RollRight",
+    "input.roll_l": "RollLeft",
+    "input.throttle": "Throttle",
+    "input.throttle_u": "ThrottleUp",
+    "input.throttle_d": "ThrottleDown",
+    "input.flaps_u": "FlapsUp",
+    "input.flaps_d": "FlapsDown",
+    "input.brake": "Brake",
+    "input.gear": "Gear",
+    "input.panel": "Panel",
+    "input.park": "ParkingBrake",
+    "input.gun_fire": "Gun",
+    "input.gun_switch": "Switch Gun",
+    "input.radio": "Radio",
+    "input.zoom_i": "ZoomIn",
+    "input.zoom_o": "ZoomOut",
+    "input.changeview": "ChangeView",
+    "input.look_l": "LookLeft",
+    "input.look_r": "LookRight",
+    "input.look_u": "LookUp",
+    "input.look_d": "LookDown",
+    "input.look_a": "LookDirectional",
+    "input.trim_yaw_r": "TrimYawRight",
+    "input.trim_yaw_l": "TrimYawLeft",
+    "input.trim_pitch_u": "TrimPitchUp",
+    "input.trim_pitch_d": "TrimPitchDown",
+    "input.trim_roll_r": "TrimRollRight",
+    "input.trim_roll_l": "TrimRollLeft",
+    "input.reverse": "Reverse",
+    "input.js_inhibit": "DisableJoystick",
+    "input.turn": "Turn",
+    "input.turn_r": "TurnRight",
+    "input.turn_l": "TurnLeft",
+    "input.gas": "Gas",
+    "input.shift_u": "ShiftUp",
+    "input.shift_d": "ShiftDown",
+    "input.shift_n": "ShiftNeutral",
+    "input.horn": "Horn",
+    "input.slow": "Slow",
+    "input.lights": "Lights",
+    "input.turnsignal_r": "RightSignal",
+    "input.turnsignal_l": "LeftSignal",
+    "sytstem.soundslot": "IMMERSIVE VEHICLES ERROR: Tried to play a sound, but was told no sound slots were available. Some mod is taking up all the slots. If you have Immersive Railroading, set override sound channels to false in that mod's config. If running GregTech, set maxNumSounds to a lower value in that mod's config. Dynamic Surrondings and Optifine also may cause issues. Apply fixes, or complain to those mod's authors. Sounds will not play.",
+    "sytstem.debug": "%s"
+  },
+  "packs": {
+    "mts": {
+      "mts.invisible_seat": {
+        "name": "Invisible Seat (DO NOT USE!)",
+        "description": ""
+      },
+      "mts.invisible_standing": {
+        "name": "Invisible Standing Seat (DO NOT USE!)",
+        "description": ""
+      },
+      "mts.invisible_wheel": {
+        "name": "Invisible Wheel (DO NOT USE!)",
+        "description": ""
+      },
+      "mts.jerrycan": {
+        "name": "Jerrycan",
+        "description": ""
+      },
+      "mts.charger": {
+        "name": "Vehicle Charger",
+        "description": ""
+      },
+      "mts.custombench": {
+        "name": "Custom Bench",
+        "description": ""
+      },
+      "mts.decorbench": {
+        "name": "Decor Bench",
+        "description": ""
+      },
+      "mts.enginebench": {
+        "name": "Engine Bench",
+        "description": ""
+      },
+      "mts.fuelpump": {
+        "name": "Fuel Pump",
+        "description": "Something about its shape is... off."
+      },
+      "mts.gunbench": {
+        "name": "Gun Bench",
+        "description": ""
+      },
+      "mts.instrumentbench": {
+        "name": "Instrument Bench",
+        "description": ""
+      },
+      "mts.itembench": {
+        "name": "Component Bench",
+        "description": ""
+      },
+      "mts.propellerbench": {
+        "name": "Propeller Bench",
+        "description": ""
+      },
+      "mts.seatbench": {
+        "name": "Seat & Cargo Bench",
+        "description": ""
+      },
+      "mts.vehiclebench": {
+        "name": "Vehicle Bench",
+        "description": ""
+      },
+      "mts.wheelbench": {
+        "name": "Wheel Bench",
+        "description": ""
+      },
+      "mts.fuelhose": {
+        "name": "Fuel Hose",
+        "description": ""
+      },
+      "mts.handbook_car": {
+        "name": "IV Operator's Manual (READ ME!)",
+        "description": ""
+      },
+      "mts.handbook_plane": {
+        "name": "MFS Flight Manual (READ ME!)",
+        "description": ""
+      },
+      "mts.jumpercable": {
+        "name": "Jumper Cables",
+        "description": ""
+      },
+      "mts.jumperpack": {
+        "name": "Jumper Pack",
+        "description": ""
+      },
+      "mts.key": {
+        "name": "Key",
+        "description": "Because leaving a car unlocked in Minecraft is like leaving it unlocked in GTA..."
+      },
+      "mts.paintgun": {
+        "name": "Paint Gun",
+        "description": ""
+      },
+      "mts.partscanner": {
+        "name": "Part Scanner",
+        "description": ""
+      },
+      "mts.ticket": {
+        "name": "Ticket",
+        "description": ""
+      },
+      "mts.wrench": {
+        "name": "Wrench",
+        "description": ""
+      },
+      "mts.y2kbutton": {
+        "name": "Y2K Button",
+        "description": ""
+      }
+    },
+    "mtsofficialpack": {
+      "mtsofficialpack.bell47g": {
+        "name": "Bell 47G",
+        "description": "The Bell 47G is a simple, yet versatile helicopter.  While it only seats two, it can carry cargo or extra fuel in optional external containers, making it ideal for either short cargo flights or medium trips to remote bases.  Small guns may also be mounted to the fuselage, though these can only fire the direction the helicopter is facing.  As such, they are not recommended against 'hot' ground targets."
+      },
+      "mtsofficialpack.bell47g_olive": {
+        "name": "Olive Bell 47G",
+        "description": "The Bell 47G is a simple, yet versatile helicopter.  While it only seats two, it can carry cargo or extra fuel in optional external containers, making it ideal for either short cargo flights or medium trips to remote bases.  Small guns may also be mounted to the fuselage, though these can only fire the direction the helicopter is facing.  As such, they are not recommended against 'hot' ground targets."
+      },
+      "mtsofficialpack.comanche_blue": {
+        "name": "Blue Comanche",
+        "description": "The Comanche is a small, swift, twin-engine craft.  While the lower wing might pose a hazard on overgrown runways, it makes up for it by being faster and nimbler than other planes of its size."
+      },
+      "mtsofficialpack.comanche_grey": {
+        "name": "Grey Comanche",
+        "description": "The Comanche is a small, swift, twin-engine craft.  While the lower wing might pose a hazard on overgrown runways, it makes up for it by being faster and nimbler than other planes of its size."
+      },
+      "mtsofficialpack.comanche_red": {
+        "name": "Red Comanche",
+        "description": "The Comanche is a small, swift, twin-engine craft.  While the lower wing might pose a hazard on overgrown runways, it makes up for it by being faster and nimbler than other planes of its size."
+      },
+      "mtsofficialpack.comanche_yellow": {
+        "name": "Yellow Comanche",
+        "description": "The Comanche is a small, swift, twin-engine craft.  While the lower wing might pose a hazard on overgrown runways, it makes up for it by being faster and nimbler than other planes of its size."
+      },
+      "mtsofficialpack.e500_blue": {
+        "name": "Blue Eclipse 500",
+        "description": "The Eclipse 500, first flown in 2002, created a new class of aircraft: the very light jet, or VLJ. The MTS version is configured to seat five, with the pilot in the front and four passengers behind them. A great addition to any private airport, and quite efficient for its capacity and speed as well."
+      },
+      "mtsofficialpack.e500_green": {
+        "name": "Green Eclipse 500",
+        "description": "The Eclipse 500, first flown in 2002, created a new class of aircraft: the very light jet, or VLJ. The MTS version is configured to seat five, with the pilot in the front and four passengers behind them. A great addition to any private airport, and quite efficient for its capacity and speed as well."
+      },
+      "mtsofficialpack.e500_red": {
+        "name": "Red Eclipse 500",
+        "description": "The Eclipse 500, first flown in 2002, created a new class of aircraft: the very light jet, or VLJ. The MTS version is configured to seat five, with the pilot in the front and four passengers behind them. A great addition to any private airport, and quite efficient for its capacity and speed as well."
+      },
+      "mtsofficialpack.e500_yellow": {
+        "name": "Yellow Eclipse 500",
+        "description": "The Eclipse 500, first flown in 2002, created a new class of aircraft: the very light jet, or VLJ. The MTS version is configured to seat five, with the pilot in the front and four passengers behind them. A great addition to any private airport, and quite efficient for its capacity and speed as well."
+      },
+      "mtsofficialpack.firetruck": {
+        "name": "Fire Truck",
+        "description": "The 1973 Ward LaFrance P80 Ambassador is a small fire truck, mostly known for being on the TV show Emergency!  This rendition seats two, and comes equipped with a working siren and emergency lights.  A must-have for any town!"
+      },
+      "mtsofficialpack.ft17_blue": {
+        "name": "Blue Renualt FT",
+        "description": "The Renault FT (frequently referred to in post-World War I literature as the FT-17, FT17, or similar) was a French light tank that was among the most revolutionary and influential tank designs in history.  Although hoplessly outclassed by modern tanks, the FT17 is still a formidable threat against infantry and lightly-armored vehicles."
+      },
+      "mtsofficialpack.ft17_olive": {
+        "name": "Olive Renualt FT",
+        "description": "The Renault FT (frequently referred to in post-World War I literature as the FT-17, FT17, or similar) was a French light tank that was among the most revolutionary and influential tank designs in history.  Although hoplessly outclassed by modern tanks, the FT17 is still a formidable threat against infantry and lightly-armored vehicles."
+      },
+      "mtsofficialpack.gmcbrig_black": {
+        "name": "Black GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_blue": {
+        "name": "Blue GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_green": {
+        "name": "Green GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_red": {
+        "name": "Red GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_white": {
+        "name": "White GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_yellow": {
+        "name": "Yellow GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.mc172_acacia": {
+        "name": "Acacia MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_birch": {
+        "name": "Birch MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_darkoak": {
+        "name": "Dark Oak MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_jungle": {
+        "name": "Jungle MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_oak": {
+        "name": "Oak MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_spruce": {
+        "name": "Spruce MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.pzlp11": {
+        "name": "PZL P11.c",
+        "description": "The PZL P11.c is a born and bred fighter aircraft. Its shoulder wing monoplane configuration provides the pilot with exceptional visibility of the sky and ground, and makes the PZL P11.c much faster than it's biplane fighter counterparts."
+      },
+      "mtsofficialpack.scout_blue": {
+        "name": "Blue Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.scout_orange": {
+        "name": "Orange Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.scout_patriot": {
+        "name": "Patriotic Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.scout_red": {
+        "name": "Red Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.scout_yellow": {
+        "name": "Yellow Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.trimotor_black": {
+        "name": "Black Ford Trimotor",
+        "description": "The Ford Trimotor is an old, yet trustworthy aircraft.  Its large wingspan provides ample lift for short takeoffs, as well as enough to maintain flight with one engine out.  With room for 12 passengers or crates, it's a great choice for long-haul flights where reliability (but not time) is of the essence."
+      },
+      "mtsofficialpack.trimotor_blue": {
+        "name": "Blue Ford Trimotor",
+        "description": "The Ford Trimotor is an old, yet trustworthy aircraft.  Its large wingspan provides ample lift for short takeoffs, as well as enough to maintain flight with one engine out.  With room for 12 passengers or crates, it's a great choice for long-haul flights where reliability (but not time) is of the essence."
+      },
+      "mtsofficialpack.trimotor_red": {
+        "name": "Red Ford Trimotor",
+        "description": "The Ford Trimotor is an old, yet trustworthy aircraft.  Its large wingspan provides ample lift for short takeoffs, as well as enough to maintain flight with one engine out.  With room for 12 passengers or crates, it's a great choice for long-haul flights where reliability (but not time) is of the essence."
+      },
+      "mtsofficialpack.trimotor_white": {
+        "name": "White Ford Trimotor",
+        "description": "The Ford Trimotor is an old, yet trustworthy aircraft.  Its large wingspan provides ample lift for short takeoffs, as well as enough to maintain flight with one engine out.  With room for 12 passengers or crates, it's a great choice for long-haul flights where reliability (but not time) is of the essence."
+      },
+      "mtsofficialpack.vulcanair_black": {
+        "name": "Black Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_blue": {
+        "name": "Blue Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_dark_red": {
+        "name": "Dark Red Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_green": {
+        "name": "Green Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_red": {
+        "name": "Red Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_white": {
+        "name": "White Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_white_orange": {
+        "name": "White-Orange Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.barrel": {
+        "name": "Barrel",
+        "description": ""
+      },
+      "mtsofficialpack.barrelbell47g": {
+        "name": "Bell 47G External Fuel Tank",
+        "description": ""
+      },
+      "mtsofficialpack.brigbedbox": {
+        "name": "Brigadier Box Bed",
+        "description": ""
+      },
+      "mtsofficialpack.brigbeddump": {
+        "name": "Brigadier Dump Bed",
+        "description": ""
+      },
+      "mtsofficialpack.brigbedflat": {
+        "name": "Brigadier Flatbed",
+        "description": ""
+      },
+      "mtsofficialpack.brigbedlogs": {
+        "name": "Brigadier Logging Bed",
+        "description": ""
+      },
+      "mtsofficialpack.brigbedstake": {
+        "name": "Brigadier Stakebed",
+        "description": ""
+      },
+      "mtsofficialpack.bumpersticker_roostair": {
+        "name": "Roost Air Bumper Sticker",
+        "description": ""
+      },
+      "mtsofficialpack.crate": {
+        "name": "Crate",
+        "description": ""
+      },
+      "mtsofficialpack.cratebell47g": {
+        "name": "Bell 47G External Storage Crate",
+        "description": ""
+      },
+      "mtsofficialpack.engineamci4": {
+        "name": "AMC I4 Car Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginebristolmercury": {
+        "name": "Bristol Mercury Plane Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginedetroitdiesel": {
+        "name": "Detroit Diesel Truck Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginefranklin0335": {
+        "name": "Franklin O-335 Helicopter Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginelycomingo360": {
+        "name": "Lycoming O-360 Plane Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginepw610f": {
+        "name": "Pratt & Whitney 610F Jet Engine",
+        "description": ""
+      },
+      "mtsofficialpack.ft17track": {
+        "name": "Renualt FT track",
+        "description": ""
+      },
+      "mtsofficialpack.gunft17turret": {
+        "name": "Renualt FT 37mm Turret",
+        "description": ""
+      },
+      "mtsofficialpack.gunm1919": {
+        "name": "M1919 Browning Machine Gun",
+        "description": ""
+      },
+      "mtsofficialpack.pontoon": {
+        "name": "Pontoon",
+        "description": ""
+      },
+      "mtsofficialpack.propellerlarge2blade": {
+        "name": "Large 2-Bladed Propeller",
+        "description": ""
+      },
+      "mtsofficialpack.propellerrotor": {
+        "name": "Small Helicopter Rotor",
+        "description": ""
+      },
+      "mtsofficialpack.propellersmall2blade": {
+        "name": "Small 2-Bladed Propeller",
+        "description": ""
+      },
+      "mtsofficialpack.propellersmall3blade": {
+        "name": "Small 3-Bladed Propeller (Dynamic Pitch)",
+        "description": ""
+      },
+      "mtsofficialpack.scouthardtop": {
+        "name": "Scout Hard-Top",
+        "description": ""
+      },
+      "mtsofficialpack.scoutvinyltop": {
+        "name": "Scout Vinyl-Top",
+        "description": ""
+      },
+      "mtsofficialpack.seatblack": {
+        "name": "Black Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatblue": {
+        "name": "Blue Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatbrown": {
+        "name": "Brown Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatgrey": {
+        "name": "Grey Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatpink": {
+        "name": "Pink Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatred": {
+        "name": "Red Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatwhite": {
+        "name": "White Seat",
+        "description": ""
+      },
+      "mtsofficialpack.skidhelicopter": {
+        "name": "Small Helicopter Skid",
+        "description": ""
+      },
+      "mtsofficialpack.wheellarge": {
+        "name": "Large Wheel",
+        "description": ""
+      },
+      "mtsofficialpack.wheelmedium": {
+        "name": "Medium Wheel",
+        "description": ""
+      },
+      "mtsofficialpack.wheelsmall": {
+        "name": "Small Wheel",
+        "description": ""
+      },
+      "mtsofficialpack.bullet3700he": {
+        "name": "37mm HE Shell",
+        "description": ""
+      },
+      "mtsofficialpack.bullet3700solid": {
+        "name": "37mm Solid Shot",
+        "description": ""
+      },
+      "mtsofficialpack.bullet762": {
+        "name": "7.62mm Bullet",
+        "description": ""
+      },
+      "mtsofficialpack.beacon_top": {
+        "name": "Beacon",
+        "description": ""
+      },
+      "mtsofficialpack.beacon_tower_inverted": {
+        "name": "Beacon (With Tower)",
+        "description": ""
+      },
+      "mtsofficialpack.beacon_tower_standard": {
+        "name": "Beacon (With Tower)",
+        "description": ""
+      },
+      "mtsofficialpack.crashbarrier": {
+        "name": "Crash Barrier",
+        "description": ""
+      },
+      "mtsofficialpack.fluidloader": {
+        "name": "Fluid Loader",
+        "description": "Adds fluids to tanks/barrels on vehicles.  Connect pipes to the bottom."
+      },
+      "mtsofficialpack.fluidunloader": {
+        "name": "Fluid Unloader",
+        "description": "Removes fluids from tanks/barrels on vehicles.  Connect pipes to the bottom."
+      },
+      "mtsofficialpack.fuelpump": {
+        "name": "Fuel Pump",
+        "description": ""
+      },
+      "mtsofficialpack.itemloader": {
+        "name": "Item Loader",
+        "description": "Adds items to crates on vehicles."
+      },
+      "mtsofficialpack.itemunloader": {
+        "name": "Item Unloader",
+        "description": "Removes items from crates on vehicles."
+      },
+      "mtsofficialpack.signalcontroller": {
+        "name": "Signal Controller",
+        "description": ""
+      },
+      "mtsofficialpack.telephonebooth": {
+        "name": "Telephone Booth",
+        "description": ""
+      },
+      "mtsofficialpack.trafficcone": {
+        "name": "Traffic Cone",
+        "description": ""
+      },
+      "mtsofficialpack.pole_core": {
+        "name": "Pole",
+        "description": ""
+      },
+      "mtsofficialpack.pole_crossingsignal": {
+        "name": "Crossing Signal",
+        "description": ""
+      },
+      "mtsofficialpack.pole_flashingsignal_red": {
+        "name": "Flashing Red Signal",
+        "description": ""
+      },
+      "mtsofficialpack.pole_flashingsignal_yellow": {
+        "name": "Flashing Yellow Signal",
+        "description": ""
+      },
+      "mtsofficialpack.pole_streetlight": {
+        "name": "Street Light",
+        "description": ""
+      },
+      "mtsofficialpack.pole_trafficsignal": {
+        "name": "Traffic Signal",
+        "description": ""
+      },
+      "mtsofficialpack.sign_donotenter": {
+        "name": "Do Not Enter",
+        "description": ""
+      },
+      "mtsofficialpack.sign_mts": {
+        "name": "MTS (AKA Free Product Placement)",
+        "description": ""
+      },
+      "mtsofficialpack.sign_noparking": {
+        "name": "No Parking",
+        "description": ""
+      },
+      "mtsofficialpack.sign_oneway_left": {
+        "name": "One Way (Left)",
+        "description": ""
+      },
+      "mtsofficialpack.sign_oneway_right": {
+        "name": "One Way (Right)",
+        "description": ""
+      },
+      "mtsofficialpack.sign_route": {
+        "name": "Route",
+        "description": ""
+      },
+      "mtsofficialpack.sign_speedlimit": {
+        "name": "Speed Limit",
+        "description": ""
+      },
+      "mtsofficialpack.sign_stop": {
+        "name": "Stop",
+        "description": ""
+      },
+      "mtsofficialpack.sign_wrongway": {
+        "name": "Wrong Way",
+        "description": ""
+      },
+      "mtsofficialpack.sign_yield": {
+        "name": "Yield",
+        "description": ""
+      },
+      "mtsofficialpack.nuts": {
+        "name": "Nuts",
+        "description": ""
+      },
+      "mtsofficialpack.rods": {
+        "name": "Rods",
+        "description": ""
+      },
+      "mtsofficialpack.instrument_aircraft_adf": {
+        "name": "ADF Indicator",
+        "description": "Indicates beacon direction."
+      },
+      "mtsofficialpack.instrument_aircraft_airspeed": {
+        "name": "Airspeed Indicator",
+        "description": "Indicates speed."
+      },
+      "mtsofficialpack.instrument_aircraft_altimeter": {
+        "name": "Altimeter",
+        "description": "Indicates height."
+      },
+      "mtsofficialpack.instrument_aircraft_attitude": {
+        "name": "Attitude Indicator",
+        "description": "Indicates where the plane is pointing."
+      },
+      "mtsofficialpack.instrument_aircraft_electric": {
+        "name": "Electrical Gauge",
+        "description": "Indicates electrical power and usage."
+      },
+      "mtsofficialpack.instrument_aircraft_enginetemp": {
+        "name": "Engine Temperature Gauge",
+        "description": "Indicates engine temperature."
+      },
+      "mtsofficialpack.instrument_aircraft_flaps": {
+        "name": "Flaps Gauge",
+        "description": "Indicates flap setpoint and current value."
+      },
+      "mtsofficialpack.instrument_aircraft_fuelflow": {
+        "name": "Fuel Flow Gauge",
+        "description": "Indicates fuel consumption rate."
+      },
+      "mtsofficialpack.instrument_aircraft_fuelqty": {
+        "name": "Fuel Gauge",
+        "description": "Indicates fuel."
+      },
+      "mtsofficialpack.instrument_aircraft_heading": {
+        "name": "Heading Indicator",
+        "description": "Indicates heading direction."
+      },
+      "mtsofficialpack.instrument_aircraft_ils": {
+        "name": "ILS Indicator",
+        "description": "Displays instrument landing system (ILS) information for beacons."
+      },
+      "mtsofficialpack.instrument_aircraft_liftreserve": {
+        "name": "Lift Reserve Indicator",
+        "description": "Indicates lift potential."
+      },
+      "mtsofficialpack.instrument_aircraft_oilpressure": {
+        "name": "Oil Pressure Gauge",
+        "description": "Indicates oil pressure."
+      },
+      "mtsofficialpack.instrument_aircraft_tachometer": {
+        "name": "Tachometer",
+        "description": "Indicates engine speeds."
+      },
+      "mtsofficialpack.instrument_aircraft_trim": {
+        "name": "Trim Indicator",
+        "description": "Indicates trim positions."
+      },
+      "mtsofficialpack.instrument_aircraft_turncoord": {
+        "name": "Turn Coordinator",
+        "description": "Indicates bank rate and slip."
+      },
+      "mtsofficialpack.instrument_aircraft_turnslip": {
+        "name": "Turn and Slip Indicator",
+        "description": "Indicates turn rate and slip."
+      },
+      "mtsofficialpack.instrument_aircraft_verticalspeed": {
+        "name": "Vertical Speed Indicator",
+        "description": "Indicates climb rate."
+      },
+      "mtsofficialpack.instrument_car_electric": {
+        "name": "Electrical Gauge",
+        "description": "Indicates electrical power."
+      },
+      "mtsofficialpack.instrument_car_enginetemp_c": {
+        "name": "Engine Temperature Gauge (C)",
+        "description": "Indicates engine temperature in Celcius."
+      },
+      "mtsofficialpack.instrument_car_enginetemp_f": {
+        "name": "Engine Temperature Gauge (F)",
+        "description": "Indicates engine temperature in Fahrenheit."
+      },
+      "mtsofficialpack.instrument_car_fuelqty": {
+        "name": "Fuel Gauge",
+        "description": "Indicates fuel."
+      },
+      "mtsofficialpack.instrument_car_gear": {
+        "name": "Gear Indicator",
+        "description": "Indicates current gear."
+      },
+      "mtsofficialpack.instrument_car_oilpressure_b": {
+        "name": "Oil Presure Gauge (BAR)",
+        "description": "Indicates oil pressure."
+      },
+      "mtsofficialpack.instrument_car_oilpressure_p": {
+        "name": "Oil Presure Gauge (PSI)",
+        "description": "Indicates oil pressure."
+      },
+      "mtsofficialpack.instrument_car_spedometer_blk": {
+        "name": "Spedometer (BLK/S)",
+        "description": "Indicates speed in Blocks Per Second."
+      },
+      "mtsofficialpack.instrument_car_spedometer_kph": {
+        "name": "Spedometer (KPH)",
+        "description": "Indicates speed in Kilometers Per Hour."
+      },
+      "mtsofficialpack.instrument_car_spedometer_mph": {
+        "name": "Spedometer (MPH)",
+        "description": "Indicates speed in Miles Per Hour."
+      },
+      "mtsofficialpack.instrument_car_tachometer_amc": {
+        "name": "AMC I4 Tachometer",
+        "description": "Indicates engine speeds."
+      },
+      "mtsofficialpack.instrument_car_tachometer_det": {
+        "name": "Detroit Diesel Tachometer",
+        "description": "Indicates engine speeds."
+      }
+    },
+    "osog_city_car": {
+      "osog_city_car.audi_100_c2": {
+        "name": "White Audi 100 C2",
+        "description": "Germany AUDI 100 C2. Model by OSOG_Tim."
+      },
+      "osog_city_car.audi_100_c2_1": {
+        "name": "Purple Audi 100 C2",
+        "description": "Germany AUDI 100 C2. Model by OSOG_Tim."
+      },
+      "osog_city_car.audi_100_c2_2": {
+        "name": "Black Audi 100 C2",
+        "description": "Germany AUDI 100 C2. Model by OSOG_Tim."
+      },
+      "osog_city_car.audi_100_c2_3": {
+        "name": "Green Audi 100 C2",
+        "description": "Germany AUDI 100 C2. Model by OSOG_Tim."
+      },
+      "osog_city_car.audi_100_c2_4": {
+        "name": "Red Audi 100 C2",
+        "description": "Germany AUDI 100 C2. Model by OSOG_Tim."
+      },
+      "osog_city_car.audi_100_c2_5": {
+        "name": "Blue Audi 100 C2",
+        "description": "Germany AUDI 100 C2. Model by OSOG_Tim."
+      },
+      "osog_city_car.bmw_e30_coupe": {
+        "name": "White BMW E30 Coupe",
+        "description": "Germany BMW E30 Coupe. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.bmw_e30_coupe_1": {
+        "name": "Blue BMW E30 Coupe",
+        "description": "Germany BMW E30 Coupe. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.bmw_e30_coupe_2": {
+        "name": "Red BMW E30 Coupe",
+        "description": "Germany BMW E30 Coupe. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.bmw_e30_coupe_3": {
+        "name": "Green BMW E30 Coupe",
+        "description": "Germany BMW E30 Coupe. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.bmw_e30_coupe_4": {
+        "name": "Yellow BMW E30 Coupe",
+        "description": "Germany BMW E30 Coupe. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.bmw_e30_coupe_5": {
+        "name": "Violet BMW E30 Coupe",
+        "description": "Germany BMW E30 Coupe. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.bmw_e30_coupe_6": {
+        "name": "Black BMW E30 Coupe",
+        "description": "Germany BMW E30 Coupe. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.bmw_e30_coupe_7": {
+        "name": "Latte BMW E30 Coupe",
+        "description": "Germany BMW E30 Coupe. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.volkswagen_scirocco_1980": {
+        "name": "White-blue Volkswagen Scirocco Mk.1",
+        "description": "Germany Volkswagen Scirocco Mk.1 1980 year. Model by _S1lan4ik_, config by OSOG_Tim."
+      },
+      "osog_city_car.volkswagen_scirocco_1980_1": {
+        "name": "White Volkswagen Scirocco Mk.1",
+        "description": "Germany Volkswagen Scirocco Mk.1 1980 year. Model by _S1lan4ik_, config by OSOG_Tim."
+      },
+      "osog_city_car.volkswagen_scirocco_1980_2": {
+        "name": "Red Volkswagen Scirocco Mk.1",
+        "description": "Germany Volkswagen Scirocco Mk.1 1980 year. Model by _S1lan4ik_, config by OSOG_Tim."
+      },
+      "osog_city_car.volkswagen_scirocco_1980_3": {
+        "name": "Yellow Volkswagen Scirocco Mk.1",
+        "description": "Germany Volkswagen Scirocco Mk.1 1980 year. Model by _S1lan4ik_, config by OSOG_Tim."
+      },
+      "osog_city_car.volkswagen_scirocco_1980_4": {
+        "name": "Green Volkswagen Scirocco Mk.1",
+        "description": "Germany Volkswagen Scirocco Mk.1 1980 year. Model by _S1lan4ik_, config by OSOG_Tim."
+      },
+      "osog_city_car.volkswagen_scirocco_1980_5": {
+        "name": "Blue Volkswagen Scirocco Mk.1",
+        "description": "Germany Volkswagen Scirocco Mk.1 1980 year. Model by _S1lan4ik_, config by OSOG_Tim."
+      },
+      "osog_city_car.volkswagen_scirocco_1980_6": {
+        "name": "Latte Volkswagen Scirocco Mk.1",
+        "description": "Germany Volkswagen Scirocco Mk.1 1980 year. Model by _S1lan4ik_, config by OSOG_Tim."
+      },
+      "osog_city_car.volkswagen_scirocco_1980_7": {
+        "name": "Black Volkswagen Scirocco Mk.1",
+        "description": "Germany Volkswagen Scirocco Mk.1 1980 year. Model by _S1lan4ik_, config by OSOG_Tim."
+      },
+      "osog_city_car.nissan_skyline_2000gt-r": {
+        "name": "White Nissan Skyline 2000GT-R",
+        "description": "Japan Nissan Skyline 2000GT-r. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.nissan_skyline_2000gt-r_1": {
+        "name": "Black Nissan Skyline 2000GT-R",
+        "description": "Japan Nissan Skyline 2000GT-r. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.nissan_skyline_2000gt-r_2": {
+        "name": "Red Nissan Skyline 2000GT-R",
+        "description": "Japan Nissan Skyline 2000GT-r. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.nissan_skyline_2000gt-r_3": {
+        "name": "Blue Nissan Skyline 2000GT-R",
+        "description": "Japan Nissan Skyline 2000GT-r. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.nissan_skyline_2000gt-r_4": {
+        "name": "Yellow Nissan Skyline 2000GT-R",
+        "description": "Japan Nissan Skyline 2000GT-r. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.nissan_skyline_2000gt-r_5": {
+        "name": "Green Nissan Skyline 2000GT-R",
+        "description": "Japan Nissan Skyline 2000GT-r. Model by _S1lan4ik_, config by OSOG_Tim"
+      },
+      "osog_city_car.toyota_camry_1980_osog": {
+        "name": "White Toyota Camry SV10",
+        "description": "Japan Toyota Camry SV10 1980 year. Model by OSOG_Tim."
+      },
+      "osog_city_car.toyota_camry_1980_osog_1": {
+        "name": "Black Toyota Camry SV10",
+        "description": "Japan Toyota Camry SV10 1980 year. Model by OSOG_Tim."
+      },
+      "osog_city_car.toyota_camry_1980_osog_2": {
+        "name": "Blue Toyota Camry SV10",
+        "description": "Japan Toyota Camry SV10 1980 year. Model by OSOG_Tim."
+      },
+      "osog_city_car.toyota_camry_1980_osog_3": {
+        "name": "Green Toyota Camry SV10",
+        "description": "Japan Toyota Camry SV10 1980 year. Model by OSOG_Tim."
+      },
+      "osog_city_car.toyota_camry_1980_osog_4": {
+        "name": "Red Toyota Camry SV10",
+        "description": "Japan Toyota Camry SV10 1980 year. Model by OSOG_Tim."
+      },
+      "osog_city_car.toyota_camry_1980_osog_5": {
+        "name": "Yellow Toyota Camry SV10",
+        "description": "Japan Toyota Camry SV10 1980 year. Model by OSOG_Tim."
+      },
+      "osog_city_car.toyota_camry_1980_osog_6": {
+        "name": "Dark-blue, white down face Toyota Camry SV10",
+        "description": "Japan Toyota Camry SV10 1980 year. Model by OSOG_Tim."
+      },
+      "osog_city_car.toyota_camry_1980_osog_7": {
+        "name": "Red, latte down Toyota Camry SV10",
+        "description": "Japan Toyota Camry SV10 1980 year. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_21099": {
+        "name": "White VAZ 21099",
+        "description": "Russian VAZ 21099. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_21099_black": {
+        "name": "Black VAZ 21099",
+        "description": "Russian VAZ 21099. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_21099_blue": {
+        "name": "Blue VAZ 21099",
+        "description": "Russian VAZ 21099. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_21099_green": {
+        "name": "Green VAZ 21099",
+        "description": "Russian VAZ 21099. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_21099_latte": {
+        "name": "Latte VAZ 21099",
+        "description": "Russian VAZ 21099. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_21099_red": {
+        "name": "Red VAZ 21099",
+        "description": "Russian VAZ 21099. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_21099_yellow": {
+        "name": "Yellow VAZ 21099",
+        "description": "Russian VAZ 21099. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2121_niva": {
+        "name": "White VAZ 2121 NIVA LEGEND",
+        "description": "Russian VAZ 2121 Niva Legend. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2121_niva_black": {
+        "name": "Black VAZ 2121 NIVA LEGEND",
+        "description": "Russian VAZ 2121 Niva Legend. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2121_niva_blue": {
+        "name": "Blue VAZ 2121 NIVA LEGEND",
+        "description": "Russian VAZ 2121 Niva Legend. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2121_niva_green": {
+        "name": "Green VAZ 2121 NIVA LEGEND",
+        "description": "Russian VAZ 2121 Niva Legend. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2121_niva_latte": {
+        "name": "Latte VAZ 2121 NIVA LEGEND",
+        "description": "Russian VAZ 2121 Niva Legend. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2121_niva_red": {
+        "name": "Red VAZ 2121 NIVA LEGEND",
+        "description": "Russian VAZ 2121 Niva Legend. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2121_niva_yellow": {
+        "name": "Yellow VAZ 2121 NIVA LEGEND",
+        "description": "Russian VAZ 2121 Niva Legend. Model by OSOG_Tim."
+      },
+      "osog_city_car.azlk_2140": {
+        "name": "White AZLK 2140",
+        "description": "Soviet AZLK. Model by OSOG_Tim."
+      },
+      "osog_city_car.azlk_2140_black": {
+        "name": "Black AZLK 2140",
+        "description": "Soviet AZLK. Model by OSOG_Tim."
+      },
+      "osog_city_car.azlk_2140_blue": {
+        "name": "Blue AZLK 2140",
+        "description": "Soviet AZLK. Model by OSOG_Tim."
+      },
+      "osog_city_car.azlk_2140_green": {
+        "name": "Green AZLK 2140",
+        "description": "Soviet AZLK. Model by OSOG_Tim."
+      },
+      "osog_city_car.azlk_2140_latte": {
+        "name": "Latte AZLK 2140",
+        "description": "Soviet AZLK. Model by OSOG_Tim."
+      },
+      "osog_city_car.azlk_2140_red": {
+        "name": "Red AZLK 2140",
+        "description": "Soviet AZLK. Model by OSOG_Tim."
+      },
+      "osog_city_car.azlk_2140_yellow": {
+        "name": "Yellow AZLK 2140",
+        "description": "Soviet AZLK. Model by OSOG_Tim."
+      },
+      "osog_city_car.gaz_31029": {
+        "name": "White GAZ 31029",
+        "description": "GAZ 31029. Model by OSOG_Tim"
+      },
+      "osog_city_car.gaz_31029_1": {
+        "name": "Blue GAZ 31029",
+        "description": "GAZ 31029. Model by OSOG_Tim"
+      },
+      "osog_city_car.gaz_31029_2": {
+        "name": "Green GAZ 31029",
+        "description": "GAZ 31029. Model by OSOG_Tim"
+      },
+      "osog_city_car.gaz_31029_3": {
+        "name": "Red GAZ 31029",
+        "description": "GAZ 31029. Model by OSOG_Tim"
+      },
+      "osog_city_car.gaz_31029_4": {
+        "name": "Yellow GAZ 31029",
+        "description": "GAZ 31029. Model by OSOG_Tim"
+      },
+      "osog_city_car.gaz_31029_5": {
+        "name": "Black GAZ 31029",
+        "description": "GAZ 31029. Model by OSOG_Tim"
+      },
+      "osog_city_car.gaz_31029_6": {
+        "name": "Black-Blue GAZ 31029",
+        "description": "GAZ 31029. Model by OSOG_Tim"
+      },
+      "osog_city_car.gaz_31029_7": {
+        "name": "Latte GAZ 31029",
+        "description": "GAZ 31029. Model by OSOG_Tim"
+      },
+      "osog_city_car.smz_s-3d": {
+        "name": "White SMZ S-3D",
+        "description": "Soviet SMZ S-3D.\nModel by _S1lan4ik_.\nConfig by OSOG_Tim."
+      },
+      "osog_city_car.smz_s-3d_black": {
+        "name": "Black SMZ S-3D",
+        "description": "Soviet SMZ S-3D.\nModel by _S1lan4ik_.\nConfig by OSOG_Tim."
+      },
+      "osog_city_car.smz_s-3d_g": {
+        "name": "Green SMZ S-3D",
+        "description": "Soviet SMZ S-3D.\nModel by _S1lan4ik_.\nConfig by OSOG_Tim."
+      },
+      "osog_city_car.smz_s-3d_latte": {
+        "name": "Latte SMZ S-3D",
+        "description": "Soviet SMZ S-3D.\nModel by _S1lan4ik_.\nConfig by OSOG_Tim."
+      },
+      "osog_city_car.smz_s-3d_r": {
+        "name": "Red SMZ S-3D",
+        "description": "Soviet SMZ S-3D.\nModel by _S1lan4ik_.\nConfig by OSOG_Tim."
+      },
+      "osog_city_car.smz_s-3d_y": {
+        "name": "Yellow SMZ S-3D",
+        "description": "Soviet SMZ S-3D.\nModel by _S1lan4ik_.\nConfig by OSOG_Tim."
+      },
+      "osog_city_car.vaz_1111": {
+        "name": "White VAZ 1111",
+        "description": "Soviet VAZ 1111 *Oka*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_1111_1": {
+        "name": "Blue VAZ 1111",
+        "description": "Soviet VAZ 1111 *Oka*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_1111_2": {
+        "name": "Red VAZ 1111",
+        "description": "Soviet VAZ 1111 *Oka*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_1111_3": {
+        "name": "Yellow VAZ 1111",
+        "description": "Soviet VAZ 1111 *Oka*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_1111_4": {
+        "name": "Green VAZ 1111",
+        "description": "Soviet VAZ 1111 *Oka*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2103": {
+        "name": "White VAZ 2103",
+        "description": "Soviet VAZ 2103. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2103_1": {
+        "name": "White-Blue VAZ 2103",
+        "description": "Soviet VAZ 2103. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2103_2": {
+        "name": "Green VAZ 2103",
+        "description": "Soviet VAZ 2103. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2103_3": {
+        "name": "Red VAZ 2103",
+        "description": "Soviet VAZ 2103. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2103_4": {
+        "name": "Blue VAZ 2103",
+        "description": "Soviet VAZ 2103. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2103_5": {
+        "name": "Black VAZ 2103",
+        "description": "Soviet VAZ 2103. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2103_6": {
+        "name": "Yellow VAZ 2103",
+        "description": "Soviet VAZ 2103. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2105": {
+        "name": "White VAZ 2105",
+        "description": "Soviet VAZ 2105. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2105_black": {
+        "name": "Black VAZ 2105",
+        "description": "Soviet VAZ 2105. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2105_blue": {
+        "name": "Blue VAZ 2105",
+        "description": "Soviet VAZ 2105. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2105_green": {
+        "name": "Green VAZ 2105",
+        "description": "Soviet VAZ 2105. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2105_latte": {
+        "name": "Latte VAZ 2105",
+        "description": "Soviet VAZ 2105. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2105_pink": {
+        "name": "Pink VAZ 2105",
+        "description": "Soviet VAZ 2105. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2105_red": {
+        "name": "Red VAZ 2105",
+        "description": "Soviet VAZ 2105. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2105_yellow": {
+        "name": "Yellow VAZ 2105",
+        "description": "Soviet VAZ 2105. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2106": {
+        "name": "White VAZ 2106",
+        "description": "Soviet VAZ 2106. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2106_black": {
+        "name": "Black VAZ 2106",
+        "description": "Soviet VAZ 2106. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2106_blue": {
+        "name": "Blue VAZ 2106",
+        "description": "Soviet VAZ 2106. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2106_green": {
+        "name": "Green VAZ 2106",
+        "description": "Soviet VAZ 2106. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2106_latte": {
+        "name": "Latte VAZ 2106",
+        "description": "Soviet VAZ 2106. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2106_red": {
+        "name": "Red VAZ 2106",
+        "description": "Soviet VAZ 2106. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2106_yellow": {
+        "name": "Yellow VAZ 2106",
+        "description": "Soviet VAZ 2106. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2107": {
+        "name": "White VAZ 2107",
+        "description": "Soviet VAZ 2107. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2107_baklazhan": {
+        "name": "Purple VAZ 2107",
+        "description": "Soviet VAZ 2107. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2107_black": {
+        "name": "Black VAZ 2107",
+        "description": "Soviet VAZ 2107. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2107_blue": {
+        "name": "Blue VAZ 2107",
+        "description": "Soviet VAZ 2107. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2107_green": {
+        "name": "Green VAZ 2107",
+        "description": "Soviet VAZ 2107. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2107_latte": {
+        "name": "Latte VAZ 2107",
+        "description": "Soviet VAZ 2107. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2107_red": {
+        "name": "Red VAZ 2107",
+        "description": "Soviet VAZ 2107. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2107_yellow": {
+        "name": "Yellow VAZ 2107",
+        "description": "Soviet VAZ 2107. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2108": {
+        "name": "White VAZ 2108",
+        "description": "Soviet VAZ 2108 *Samara*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2108_baklazhan": {
+        "name": "Purple VAZ 2108",
+        "description": "Soviet VAZ 2108 *Samara*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2108_black": {
+        "name": "Black VAZ 2108",
+        "description": "Soviet VAZ 2108 *Samara*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2108_blue": {
+        "name": "Blue VAZ 2108",
+        "description": "Soviet VAZ 2108 *Samara*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2108_blue2": {
+        "name": "Light blue VAZ 2108",
+        "description": "Soviet VAZ 2108 *Samara*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2108_green": {
+        "name": "Green VAZ 2108",
+        "description": "Soviet VAZ 2108 *Samara*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2108_latte": {
+        "name": "Latte VAZ 2108",
+        "description": "Soviet VAZ 2108 *Samara*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2108_red": {
+        "name": "Red VAZ 2108",
+        "description": "Soviet VAZ 2108 *Samara*. Model by OSOG_Tim."
+      },
+      "osog_city_car.vaz_2108_yellow": {
+        "name": "Yellow VAZ 2108",
+        "description": "Soviet VAZ 2108 *Samara*. Model by OSOG_Tim."
+      },
+      "osog_city_car.zaz_968_black": {
+        "name": "Black ZAZ 968",
+        "description": "Soviet ZAZ 968. Model by OSOG_Tim."
+      },
+      "osog_city_car.zaz_968_g": {
+        "name": "Green ZAZ 968",
+        "description": "Soviet ZAZ 968. Model by OSOG_Tim."
+      },
+      "osog_city_car.zaz_968_latte": {
+        "name": "Latte ZAZ 968",
+        "description": "Soviet ZAZ 968. Model by OSOG_Tim."
+      },
+      "osog_city_car.zaz_968_r": {
+        "name": "Red ZAZ 968",
+        "description": "Soviet ZAZ 968. Model by OSOG_Tim."
+      },
+      "osog_city_car.zaz_968_wb": {
+        "name": "Blue ZAZ 968",
+        "description": "Soviet ZAZ 968. Model by OSOG_Tim."
+      },
+      "osog_city_car.zaz_968_white": {
+        "name": "White ZAZ 968",
+        "description": "Soviet ZAZ 968. Model by OSOG_Tim."
+      },
+      "osog_city_car.zaz_968_y": {
+        "name": "Yellow ZAZ 968",
+        "description": "Soviet ZAZ 968. Model by OSOG_Tim."
+      },
+      "osog_city_car.jeep_grand_cherokee_zj_5-9": {
+        "name": "Black Jeep Grand Cherokee ZJ 5,9",
+        "description": "USA Jeep Grand Cherokee ZJ 5,9.\nModel by _S1lan4ik_.\nConfig by OSOG_Tim."
+      },
+      "osog_city_car.jeep_grand_cherokee_zj_5-9_blue": {
+        "name": "Blue Jeep Grand Cherokee ZJ 5,9",
+        "description": "USA Jeep Grand Cherokee ZJ 5,9.\nModel by _S1lan4ik_.\nConfig by OSOG_Tim."
+      },
+      "osog_city_car.jeep_grand_cherokee_zj_5-9_red": {
+        "name": "Red Jeep Grand Cherokee ZJ 5,9",
+        "description": "USA Jeep Grand Cherokee ZJ 5,9.\nModel by _S1lan4ik_.\nConfig by OSOG_Tim."
+      }
+    },
+    "osog_city_car_parts": {
+      "osog_city_car_parts.audi_old_v5engine": {
+        "name": "Engine Audi 5V",
+        "description": ""
+      },
+      "osog_city_car_parts.engine_m10": {
+        "name": "Engine m10 BMW",
+        "description": ""
+      },
+      "osog_city_car_parts.gaz_31029_engine": {
+        "name": "Engine GAZ 31029",
+        "description": ""
+      },
+      "osog_city_car_parts.izhp2": {
+        "name": "Engine IZh P 2",
+        "description": ""
+      },
+      "osog_city_car_parts.jgc_engine": {
+        "name": "Engine Jeep Grand Cherokee",
+        "description": ""
+      },
+      "osog_city_car_parts.moskvitch_412": {
+        "name": "Engine Moskvitch 412",
+        "description": ""
+      },
+      "osog_city_car_parts.nissan_engine": {
+        "name": "DOHC S20 Inline-six engine",
+        "description": ""
+      },
+      "osog_city_car_parts.old_toyota_engine": {
+        "name": "Old Toyota Engine",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz1111_engine": {
+        "name": "Engine VAZ 1111",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_2105_motor": {
+        "name": "Engine VAZ 2105",
+        "description": ""
+      },
+      "osog_city_car_parts.volkswagen_engine": {
+        "name": "Engine VW",
+        "description": ""
+      },
+      "osog_city_car_parts.zaz_968_motor": {
+        "name": "Engine ZAZ 968",
+        "description": ""
+      },
+      "osog_city_car_parts.audi_seat": {
+        "name": "Black audi seat",
+        "description": ""
+      },
+      "osog_city_car_parts.audi_seat_1": {
+        "name": "White audi seat",
+        "description": ""
+      },
+      "osog_city_car_parts.azlk_seat": {
+        "name": "AZLK old seat",
+        "description": ""
+      },
+      "osog_city_car_parts.bmw_seat": {
+        "name": "BMW seat Gray",
+        "description": ""
+      },
+      "osog_city_car_parts.bmw_seat_back": {
+        "name": "BMW back seat Gray",
+        "description": ""
+      },
+      "osog_city_car_parts.gaz_seat": {
+        "name": "Seat for GAZ 31029",
+        "description": ""
+      },
+      "osog_city_car_parts.jgc_b_seat": {
+        "name": "Jeep Grand Cherokee back seat",
+        "description": ""
+      },
+      "osog_city_car_parts.jgc_f_seat": {
+        "name": "Jeep Grand Cherokee front seat",
+        "description": ""
+      },
+      "osog_city_car_parts.nissan_seat_b": {
+        "name": "Nissan back seat Gray",
+        "description": ""
+      },
+      "osog_city_car_parts.nissan_seat_f": {
+        "name": "Nissan front seat Gray",
+        "description": ""
+      },
+      "osog_city_car_parts.oka_seat": {
+        "name": "OKA seat Gray",
+        "description": ""
+      },
+      "osog_city_car_parts.oka_seat_1": {
+        "name": "OKA seat Black",
+        "description": ""
+      },
+      "osog_city_car_parts.oka_seat_2": {
+        "name": "OKA seat Beige",
+        "description": ""
+      },
+      "osog_city_car_parts.old_toyota_seat": {
+        "name": "Old Toyota seat",
+        "description": ""
+      },
+      "osog_city_car_parts.smz_seat": {
+        "name": "SMZ S-3D Seat",
+        "description": "Seat for SMZ S-3D. Model by _S1lan4ik_. Config by OSOG_Tim."
+      },
+      "osog_city_car_parts.vaz_2108_seat": {
+        "name": "VAZ Samara seat Gray",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_2108_seat_black": {
+        "name": "VAZ Samara seat Black",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_2108_seat_brown": {
+        "name": "VAZ Samara seat Brown",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_seat": {
+        "name": "VAZ seat Gray",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_seat_beige": {
+        "name": "VAZ seat Beige",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_seat_black": {
+        "name": "VAZ seat Black",
+        "description": ""
+      },
+      "osog_city_car_parts.volkswagen_seat": {
+        "name": "VW front seat Gray",
+        "description": ""
+      },
+      "osog_city_car_parts.volkswagen_seat_b": {
+        "name": "VW back seat Gray",
+        "description": ""
+      },
+      "osog_city_car_parts.zaz_968_seat": {
+        "name": "ZAZ 968 Seat",
+        "description": ""
+      },
+      "osog_city_car_parts.zaz_968_seat_black": {
+        "name": "ZAZ 968 Seat Black",
+        "description": ""
+      },
+      "osog_city_car_parts.air_filter": {
+        "name": "Air Filter",
+        "description": ""
+      },
+      "osog_city_car_parts.air_filter_vw": {
+        "name": "Air Filter VW",
+        "description": ""
+      },
+      "osog_city_car_parts.akkum": {
+        "name": "Battery",
+        "description": ""
+      },
+      "osog_city_car_parts.bagazhnik": {
+        "name": "Trunk",
+        "description": ""
+      },
+      "osog_city_car_parts.big_kuler": {
+        "name": "Big cooler",
+        "description": ""
+      },
+      "osog_city_car_parts.carbyurator_daaz": {
+        "name": "Carburetor DAAZ",
+        "description": ""
+      },
+      "osog_city_car_parts.gaz_31024_kpp": {
+        "name": "Gearbox GAZ 31029",
+        "description": ""
+      },
+      "osog_city_car_parts.gaz_generater": {
+        "name": "Generator for GAZ 31029",
+        "description": ""
+      },
+      "osog_city_car_parts.jgc_vihlop": {
+        "name": "Exhaust Pipes for Jeep",
+        "description": "Exhaust Pipes for Jeep Grand Cherokee. Model by _S1lan4ik_. Config by OSOG_Tim."
+      },
+      "osog_city_car_parts.kuler": {
+        "name": "Cooler",
+        "description": ""
+      },
+      "osog_city_car_parts.old_air_filter": {
+        "name": "Old Air Filter",
+        "description": ""
+      },
+      "osog_city_car_parts.rus_nomer_back": {
+        "name": "Russian License Back",
+        "description": ""
+      },
+      "osog_city_car_parts.rus_nomer_front": {
+        "name": "Russian License Front",
+        "description": ""
+      },
+      "osog_city_car_parts.ua_nomer_back": {
+        "name": "Ukrainian License Back",
+        "description": ""
+      },
+      "osog_city_car_parts.ua_nomer_back_taxi": {
+        "name": "Ukrainian License Back Taxi",
+        "description": ""
+      },
+      "osog_city_car_parts.ua_nomer_front": {
+        "name": "Ukrainian License Front",
+        "description": ""
+      },
+      "osog_city_car_parts.ua_nomer_front_taxi": {
+        "name": "Ukrainian License Front Taxi",
+        "description": ""
+      },
+      "osog_city_car_parts.ua_nomer_pol_back": {
+        "name": "Ukrainian Police License Back",
+        "description": ""
+      },
+      "osog_city_car_parts.ua_nomer_pol_front": {
+        "name": "Ukrainian Police License Front",
+        "description": ""
+      },
+      "osog_city_car_parts.vihlop": {
+        "name": "Exhaust Pipes",
+        "description": "Exhaust Pipes for SMZ S-3D. Model by _S1lan4ik_. Config by OSOG_Tim."
+      },
+      "osog_city_car_parts.vihlop_standart": {
+        "name": "Exhaust Pipes",
+        "description": "Standart Exhaust Pipes. Model by OSOG_Tim."
+      },
+      "osog_city_car_parts.audi_wheel": {
+        "name": "Standart Audi Wheel",
+        "description": ""
+      },
+      "osog_city_car_parts.azlk_wheel": {
+        "name": "AZLK wheel cast drive",
+        "description": ""
+      },
+      "osog_city_car_parts.gaz_31029_wheel": {
+        "name": "Standart wheel GAZ 31029",
+        "description": ""
+      },
+      "osog_city_car_parts.jgc_wheel": {
+        "name": "Jeep Grand Cherokee Wheel",
+        "description": ""
+      },
+      "osog_city_car_parts.nissan_wheel": {
+        "name": "Nissan Wheel black disk",
+        "description": ""
+      },
+      "osog_city_car_parts.nissan_wheel_1": {
+        "name": "Nissan Wheel White disk",
+        "description": ""
+      },
+      "osog_city_car_parts.niva_wheel": {
+        "name": "Niva Wheel Stamped Disc",
+        "description": ""
+      },
+      "osog_city_car_parts.oka_wheel": {
+        "name": "Standart wheel VAZ 1111",
+        "description": ""
+      },
+      "osog_city_car_parts.smz_wheel": {
+        "name": "SMZ S-3D Wheel",
+        "description": "Wheel for SMZ S-3D. Model by _S1lan4ik_. Config by OSOG_Tim."
+      },
+      "osog_city_car_parts.vaz_2108_wheel": {
+        "name": "VAZ Wheel Stamped Disc",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_2108_wheel_2": {
+        "name": "VAZ Wheel Stamped Disc 2",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_2108_wheel_3": {
+        "name": "Volvo Poseidon Disc",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_2108_wheel_4": {
+        "name": "UAZ Stamped Disk",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_21099_wheel": {
+        "name": "Blemished 15x6 Aluminum Wheel Disk",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_21099_wheel_2": {
+        "name": "Cool disk",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_21099_wheel_3": {
+        "name": "BMW disk",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_21099_wheel_4": {
+        "name": "Chevrolet disk",
+        "description": ""
+      },
+      "osog_city_car_parts.vaz_21099_wheel_5": {
+        "name": "Chevrolet painted disk",
+        "description": ""
+      },
+      "osog_city_car_parts.vw_wheel": {
+        "name": "VW wheel cast drive",
+        "description": ""
+      },
+      "osog_city_car_parts.zaz_968_wheel": {
+        "name": "ZAZ 968 Wheel",
+        "description": ""
+      }
+    },
+    "cmaaviationtransport": {
+      "cmaaviationtransport.boeing767-300": {
+        "name": "Boeing 767-300",
+        "description": "Boeing 767-300 (Classic)\nNarrow-body twinjet\nfirst flew in February 1984 and entered service in December of that year."
+      }
+    },
+    "cmacitizenstransport": {
+      "cmacitizenstransport.hummer_h2": {
+        "name": "Hummer H2 Lightblue",
+        "description": "Hummer H2"
+      },
+      "cmacitizenstransport.hummer_h2_bl": {
+        "name": "Hummer H2 Blue",
+        "description": "Hummer H2"
+      },
+      "cmacitizenstransport.hummer_h2_or": {
+        "name": "Hummer H2 Orange",
+        "description": "Hummer H2"
+      },
+      "cmacitizenstransport.hummer_h2_re": {
+        "name": "Hummer H2 Red",
+        "description": "Hummer H2"
+      },
+      "cmacitizenstransport.jeep_grand_cherokee_zj_5-9": {
+        "name": "Black Cadillac",
+        "description": "cadillac"
+      },
+      "cmacitizenstransport.jeep_grand_cherokee_zj_5-9_blue": {
+        "name": "Blue Cadillac",
+        "description": "cadillac"
+      },
+      "cmacitizenstransport.jeep_grand_cherokee_zj_5-9_red": {
+        "name": "Red Cadillac",
+        "description": "cadillac"
+      },
+      "cmacitizenstransport.kamaz_kuzov_sam": {
+        "name": "Kamaz Samosval",
+        "description": "KAMAZ Samosval"
+      },
+      "cmacitizenstransport.kavz-685": {
+        "name": "KAVZ-685",
+        "description": "kavz-685"
+      },
+      "cmacitizenstransport.minsk": {
+        "name": "Minsk",
+        "description": "Recommended parts:\nScooter Wheel\nI1 Motorcycle Engine\nMotorcycle Seat"
+      },
+      "cmacitizenstransport.monospace": {
+        "name": "Ford E-Series",
+        "description": "Ford E Series"
+      },
+      "cmacitizenstransport.monospace_blue": {
+        "name": "Ford E-Series Blue",
+        "description": "Ford E Series"
+      },
+      "cmacitizenstransport.monospace_brown": {
+        "name": "Ford E-Series Brown",
+        "description": "Ford E Series"
+      },
+      "cmacitizenstransport.monospace_gray": {
+        "name": "Ford E-Series Gray",
+        "description": "Ford E Series"
+      },
+      "cmacitizenstransport.monospace_green": {
+        "name": "Ford E-Series Green",
+        "description": "Ford E Series"
+      },
+      "cmacitizenstransport.monospace_pochta": {
+        "name": "Ford E-Series Pochta",
+        "description": "Ford E Series"
+      },
+      "cmacitizenstransport.monospace_red": {
+        "name": "Ford E-Series Red",
+        "description": "Ford E Series"
+      },
+      "cmacitizenstransport.monospace_yelow": {
+        "name": "Ford E-Series Yellow",
+        "description": "Ford E Series"
+      },
+      "cmacitizenstransport.moskvich412": {
+        "name": "Moskvich-412",
+        "description": "Moskvich"
+      },
+      "cmacitizenstransport.moskvich412_pol": {
+        "name": "Moskvich-412 Police",
+        "description": "Moskvich"
+      },
+      "cmacitizenstransport.niva": {
+        "name": "Niva-2121",
+        "description": "Vaz-2121"
+      },
+      "cmacitizenstransport.niva_old": {
+        "name": "Niva-2121 Old",
+        "description": "Vaz-2121"
+      },
+      "cmacitizenstransport.paz652": {
+        "name": "PAZ-652",
+        "description": "Paz 652"
+      },
+      "cmacitizenstransport.pobeda": {
+        "name": "GAZ M-20 «Pobeda»",
+        "description": "Gaz Pobeda"
+      },
+      "cmacitizenstransport.tracktor": {
+        "name": "МТЗ-80 Light Blue",
+        "description": "Tracktor"
+      },
+      "cmacitizenstransport.tracktor_b": {
+        "name": "МТЗ-80 Blue",
+        "description": "Tracktor"
+      },
+      "cmacitizenstransport.tracktor_g": {
+        "name": "МТЗ-80 Green",
+        "description": "Tracktor"
+      },
+      "cmacitizenstransport.tracktor_o": {
+        "name": "МТЗ-80 Orange",
+        "description": "Tracktor"
+      },
+      "cmacitizenstransport.tracktor_r": {
+        "name": "МТЗ-80 Red",
+        "description": "Tracktor"
+      },
+      "cmacitizenstransport.tracktor_rz": {
+        "name": "МТЗ-80 Rzhav",
+        "description": "Tracktor"
+      },
+      "cmacitizenstransport.uaz_469": {
+        "name": "UAZ-469",
+        "description": "UAZ-469. By Mr.rolmine"
+      },
+      "cmacitizenstransport.ural4320firetruck": {
+        "name": "Ural-4320 FireTruck",
+        "description": "URAL-4320 Firetruck"
+      },
+      "cmacitizenstransport.vaz2102": {
+        "name": "VAZ 2102 Gray",
+        "description": "VAZ-2102"
+      },
+      "cmacitizenstransport.vaz2102_bez": {
+        "name": "VAZ 2102 Beige",
+        "description": "VAZ-2102"
+      },
+      "cmacitizenstransport.vaz2102_black": {
+        "name": "VAZ 2102 Black",
+        "description": "VAZ-2102"
+      },
+      "cmacitizenstransport.vaz2102_blue": {
+        "name": "VAZ 2102 Blue",
+        "description": "VAZ-2102"
+      },
+      "cmacitizenstransport.vaz2102_red": {
+        "name": "VAZ 2102 Red",
+        "description": "VAZ-2102"
+      },
+      "cmacitizenstransport.zil_130": {
+        "name": "Zil 130 Cisterna",
+        "description": "ZIL 130"
+      }
+    },
+    "cmamilitarytransport": {
+      "cmamilitarytransport.ka-52": {
+        "name": "Ka-52 Aligator",
+        "description": "Mi-24 Helicopter"
+      },
+      "cmamilitarytransport.mi171sh": {
+        "name": "Mi-171SH",
+        "description": "Mi-171SH"
+      },
+      "cmamilitarytransport.mi24": {
+        "name": "Mi-24",
+        "description": "Mi-24 Helicopter"
+      },
+      "cmamilitarytransport.mi8": {
+        "name": "MI-8",
+        "description": "Mi8"
+      },
+      "cmamilitarytransport.mi8amtsh": {
+        "name": "MI-8 AMTSH",
+        "description": "Mi8"
+      },
+      "cmamilitarytransport.ar234": {
+        "name": "AR-234",
+        "description": "ar-234 germany bomber"
+      },
+      "cmamilitarytransport.il-2": {
+        "name": "IL-2",
+        "description": "Il-2 Soviet attack aircraft of the Second World War, created in OKB-240 under the leadership of aircraft designer Sergei Ilyushin. The most massive combat aircraft in the history of aviation, more than 36 thousand units were produced"
+      },
+      "cmamilitarytransport.ju87b2": {
+        "name": "Junkers JU-87 B2",
+        "description": "Germany Junkers 87 B2"
+      },
+      "cmamilitarytransport.mig-21": {
+        "name": "MIG-21",
+        "description": "The MiG-21 is a Soviet light supersonic front-line fighter of the third generation."
+      },
+      "cmamilitarytransport.mig_23": {
+        "name": "Mig-23",
+        "description": "MiG23 is a third-generation Soviet multirole fighter aircraft with variable sweep overhead wing developed by OKB-155."
+      },
+      "cmamilitarytransport.pe8": {
+        "name": "Su-34",
+        "description": "pe-8 soviet bomber"
+      },
+      "cmamilitarytransport.su-25": {
+        "name": "Su-25M",
+        "description": "Su-25 Soviet attack aircraft, armored subsonic military aircraft.The attack aircraft is designed for direct support of ground forces over the battlefield day and night with direct visibility of the target, as well as the destruction of objects with given coordinates around the clock in any weather conditions."
+      },
+      "cmamilitarytransport.su-25grach": {
+        "name": "Su-25_Grach",
+        "description": "Su-25 Soviet attack aircraft, armored subsonic military aircraft.The attack aircraft is designed for direct support of ground forces over the battlefield day and night with direct visibility of the target, as well as the destruction of objects with given coordinates around the clock in any weather conditions."
+      },
+      "cmamilitarytransport.su34": {
+        "name": "Su-34",
+        "description": "Su-34 is a Soviet / Russian multifunctional front-line supersonic fighter-bomber designed to strike with aircraft weapons against enemy targets in operational and tactical depth with the main efforts concentrated at a distance of 150-600 km from the line of contact in conditions of strong opposition from air defense systems the enemy and the use of modern means of electronic warfare[4], as well as the destruction of enemy air targets day and night in simple and difficult meteorological conditions[1]."
+      },
+      "cmamilitarytransport.7.5sm_pak40": {
+        "name": "7.5 cm Pak.40 Artillery Frame",
+        "description": ""
+      },
+      "cmamilitarytransport.zis3": {
+        "name": "Zis-3 Artillery Frame",
+        "description": ""
+      },
+      "cmamilitarytransport.gaz-71": {
+        "name": "Gaz-71",
+        "description": "Soviet Gaz-71 (I spent a lot of time on it...)"
+      },
+      "cmamilitarytransport.kamaz_63968": {
+        "name": "KamAZ 63968 Taifun",
+        "description": "Kamaz Taifun 63968"
+      },
+      "cmamilitarytransport.opel_blitz": {
+        "name": "Opel Blitz",
+        "description": "Opel"
+      },
+      "cmamilitarytransport.opel_blitz_zima": {
+        "name": "Opel Blitz Zima",
+        "description": "Opel"
+      },
+      "cmamilitarytransport.pantsir": {
+        "name": "Pantsir S1",
+        "description": "Kamaz Taifun 63968"
+      },
+      "cmamilitarytransport.zis5_katyusha": {
+        "name": "Zis-5",
+        "description": "Katysha"
+      },
+      "cmamilitarytransport.bm-21": {
+        "name": "BM-21 GRAD",
+        "description": "Grad"
+      },
+      "cmamilitarytransport.bmp": {
+        "name": "BMP-2",
+        "description": "BMP-2"
+      },
+      "cmamilitarytransport.btr80a": {
+        "name": "BTR-80A",
+        "description": "BTR-80A"
+      },
+      "cmamilitarytransport.is-2": {
+        "name": "Is-2 1944",
+        "description": "Is-2 1944"
+      },
+      "cmamilitarytransport.kv-1": {
+        "name": "Kv-1 Korpus",
+        "description": "KV-1"
+      },
+      "cmamilitarytransport.kv-2": {
+        "name": "Kv-2 Korpus",
+        "description": "KV-2"
+      },
+      "cmamilitarytransport.kv-2_1": {
+        "name": "Kv-2 Korpus Light",
+        "description": "KV-2"
+      },
+      "cmamilitarytransport.kv-85": {
+        "name": "kv-85 Korpus",
+        "description": "KV-85"
+      },
+      "cmamilitarytransport.obj56": {
+        "name": "T-62 Korpus",
+        "description": "t-34-85"
+      },
+      "cmamilitarytransport.t-80_1": {
+        "name": "T-80 Korpus 1",
+        "description": "T-90"
+      },
+      "cmamilitarytransport.t-80_2": {
+        "name": "T-80 Korpus 2",
+        "description": "T-90"
+      },
+      "cmamilitarytransport.t-80_3": {
+        "name": "T-80 Korpus 3",
+        "description": "T-90"
+      },
+      "cmamilitarytransport.t-90": {
+        "name": "T-90 Korpus",
+        "description": "T-90"
+      },
+      "cmamilitarytransport.t3485": {
+        "name": "T-34-85 Korpus",
+        "description": "t-34-85"
+      },
+      "cmamilitarytransport.panther": {
+        "name": "Panther Ausf. G",
+        "description": "Panter"
+      },
+      "cmamilitarytransport.panzer_iv": {
+        "name": "Panzer IV Ausf. G",
+        "description": "Panzer IV"
+      },
+      "cmamilitarytransport.sdkfz234": {
+        "name": "Sdkfz-234",
+        "description": ""
+      },
+      "cmamilitarytransport.tiger2": {
+        "name": "Tiger II",
+        "description": "Panter"
+      },
+      "cmamilitarytransport.wirbelwind": {
+        "name": "Wirbelwind",
+        "description": "Wirbelwind"
+      },
+      "cmamilitarytransport.bismarck": {
+        "name": "Bismarck",
+        "description": ""
+      },
+      "cmamilitarytransport.gun_aircraft": {
+        "name": "Gun For Aircraft 30mm",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_aa_weapon_pylon_bomb_0500_1": {
+        "name": "500kg Bomb Launcher",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_aa_weapon_pylon_bomb_5000_1": {
+        "name": "5000kg Bomb Launcher",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_aa_weapon_pylon_missile_gr6": {
+        "name": "Rocket Launcher For Aviation 310mm",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_aa_weapon_pylon_pod_rocket32": {
+        "name": "Rocket launcher 48mm",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_030mm": {
+        "name": "30mm Rounds",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_0a64mm": {
+        "name": "50mm Ammo",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_122mm_heatfs": {
+        "name": "122mm Rocket Grad",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_125mm_apfsds": {
+        "name": "125mm APFSDS TANK",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_125mm_heatfs": {
+        "name": "125mm HEATFS TANK",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_125mm_heffs": {
+        "name": "125mm HEF-FS TANK",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_132mm_heatfs": {
+        "name": "132mm Rocket Katysha",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_152mm_he": {
+        "name": "152mm Ammo Artillery",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_aa_bomb_0500": {
+        "name": "500kg Bomb",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_aa_bomb_5000": {
+        "name": "5000kg Bomb",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_aa_missile_gr6": {
+        "name": "Rocket For Aviation",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_aa_rocket_1": {
+        "name": "Rocket Ammo 48mm",
+        "description": ""
+      },
+      "cmamilitarytransport.iav_ammo_sam_1": {
+        "name": "Zenit Rocket For Pantsir S1",
+        "description": ""
+      },
+      "cmamilitarytransport.sprgr43": {
+        "name": "Sprgr 43 88mm Shell",
+        "description": ""
+      }
+    },
+    "cmapartsfortransport": {
+      "cmapartsfortransport.7.5sm_pak40_cannon": {
+        "name": "7.5 cm Pak.40 Artillery",
+        "description": "Zis-3"
+      },
+      "cmapartsfortransport.abmp-2_turret": {
+        "name": "30mm Turret For BMP-2",
+        "description": "30mm Turret for BMP-2"
+      },
+      "cmapartsfortransport.ais2_turret": {
+        "name": "Is-2 Turret",
+        "description": ""
+      },
+      "cmapartsfortransport.akv-1_turret": {
+        "name": "Kv-1 Tank Turret",
+        "description": "Kv-2"
+      },
+      "cmapartsfortransport.akv-2_turret": {
+        "name": "Kv-2 Tank Turret",
+        "description": "Kv-2"
+      },
+      "cmapartsfortransport.akv-85_turret": {
+        "name": "Kv-85 Tank Turret",
+        "description": "Kv-2"
+      },
+      "cmapartsfortransport.apanther_turret": {
+        "name": "88mm Turret for Panther",
+        "description": ""
+      },
+      "cmapartsfortransport.apanzer_iv_turret": {
+        "name": "Panzer IV Turret",
+        "description": ""
+      },
+      "cmapartsfortransport.asdkfz234_bashny": {
+        "name": "Sdkfz-234 Gun Turret",
+        "description": "Sdkfz-234/2 Turret"
+      },
+      "cmapartsfortransport.at-34-85_turret": {
+        "name": "T-34-85 Tank Turret",
+        "description": "T-34-85"
+      },
+      "cmapartsfortransport.at-62_turret": {
+        "name": "T-62 Tank Turret",
+        "description": "125mm Turret For T-62"
+      },
+      "cmapartsfortransport.at-80_turret": {
+        "name": "T-80 Tank Turret",
+        "description": "125mm Turret For T-62"
+      },
+      "cmapartsfortransport.at-90_turret": {
+        "name": "T-90 Tank Turret",
+        "description": "125mm Turret For T-62"
+      },
+      "cmapartsfortransport.atiger2_henschelturret": {
+        "name": "Tiger II Turret",
+        "description": ""
+      },
+      "cmapartsfortransport.katyusha_launch1": {
+        "name": "Katysha Launcher",
+        "description": "RSZO GRAD Launcher"
+      },
+      "cmapartsfortransport.pantsir_zur": {
+        "name": "150mm Anti-Aircraft Guided Missile Launcher For Pantsir S1",
+        "description": ""
+      },
+      "cmapartsfortransport.rszo_grad": {
+        "name": "RSZO GRAD Launcher",
+        "description": "RSZO Grad"
+      },
+      "cmapartsfortransport.turret_btr80a": {
+        "name": "Turret BTR-80A 30mm",
+        "description": "For the BTG-1"
+      },
+      "cmapartsfortransport.wirbelwind_turret": {
+        "name": "Wirbelwind Turret",
+        "description": "30mm Turret for Wirbelwind"
+      },
+      "cmapartsfortransport.zis3_cannon": {
+        "name": "Zis-3 Artillery",
+        "description": "Zis-3"
+      },
+      "cmapartsfortransport.zsu": {
+        "name": "Soviet 30mm ZSU",
+        "description": "30mm Turret for Zis-5"
+      },
+      "cmapartsfortransport.engine_boeing": {
+        "name": "Engine For Boeing-767-300",
+        "description": ""
+      },
+      "cmapartsfortransport.engine_il2": {
+        "name": "Engine For Il-2",
+        "description": ""
+      },
+      "cmapartsfortransport.engine_jet": {
+        "name": "Engine For Fighter",
+        "description": ""
+      },
+      "cmapartsfortransport.iav_a_outboard": {
+        "name": "Bismarck Engine",
+        "description": ""
+      },
+      "cmapartsfortransport.inv_track_engine": {
+        "name": "KL-252 Double Turboshaft engine",
+        "description": ""
+      },
+      "cmapartsfortransport.invisible_traktor_engine": {
+        "name": "Engine Tracktor",
+        "description": ""
+      },
+      "cmapartsfortransport.jgc_engine": {
+        "name": "Cadillac Engine",
+        "description": ""
+      },
+      "cmapartsfortransport.kamaz-740_31-240": {
+        "name": "Engine KamAZ 740.31-240",
+        "description": ""
+      },
+      "cmapartsfortransport.minsk_engine": {
+        "name": "Engine For Minsk",
+        "description": ""
+      },
+      "cmapartsfortransport.tank_engine": {
+        "name": "Tank Engine",
+        "description": ""
+      },
+      "cmapartsfortransport.uaz_engine": {
+        "name": "Engine UAZ",
+        "description": ""
+      },
+      "cmapartsfortransport.vaz_2105_motor": {
+        "name": "Engine Ford",
+        "description": ""
+      },
+      "cmapartsfortransport.iav_a_outboard_prop": {
+        "name": "Bismarck Propeller",
+        "description": ""
+      },
+      "cmapartsfortransport.ka_rotor": {
+        "name": "Rotor For Helicopter Ka-52",
+        "description": ""
+      },
+      "cmapartsfortransport.ka_rotor1": {
+        "name": "Rotor For Helicopter Ka-52 1",
+        "description": ""
+      },
+      "cmapartsfortransport.mi_rotor": {
+        "name": "Rotor For Helicopter Mi",
+        "description": ""
+      },
+      "cmapartsfortransport.propeller_il-2": {
+        "name": "Propeller For Aircraft",
+        "description": ""
+      },
+      "cmapartsfortransport.box_from_mcheli": {
+        "name": "Box",
+        "description": ""
+      },
+      "cmapartsfortransport.box_from_mcheli_1": {
+        "name": "Box 1",
+        "description": ""
+      },
+      "cmapartsfortransport.kuzov": {
+        "name": "Kuzov Zis-5",
+        "description": ""
+      },
+      "cmapartsfortransport.rus_nomer_nuck_back": {
+        "name": "Russian License Nuckem Back",
+        "description": ""
+      },
+      "cmapartsfortransport.rus_nomer_nuck_front": {
+        "name": "Russian License Nuckem Front",
+        "description": ""
+      },
+      "cmapartsfortransport.iav_seat_none_stand": {
+        "name": "None Stand",
+        "description": ""
+      },
+      "cmapartsfortransport.jgc_f_seat": {
+        "name": "Cadillac Seat",
+        "description": ""
+      },
+      "cmapartsfortransport.kamaz_seat": {
+        "name": "Seat for KAMAZ",
+        "description": ""
+      },
+      "cmapartsfortransport.monospace_seat": {
+        "name": "Seat Ford",
+        "description": ""
+      },
+      "cmapartsfortransport.seat": {
+        "name": "Seat Small",
+        "description": ""
+      },
+      "cmapartsfortransport.seatb": {
+        "name": "Seat Big",
+        "description": ""
+      },
+      "cmapartsfortransport.zil130_seat": {
+        "name": "Seat for ZIL 130",
+        "description": ""
+      },
+      "cmapartsfortransport.artillery_wheel": {
+        "name": "Wheel For Artillery",
+        "description": ""
+      },
+      "cmapartsfortransport.azlk_wheel": {
+        "name": "Moskvich Wheel",
+        "description": ""
+      },
+      "cmapartsfortransport.back_track": {
+        "name": "Back Wheel Tracktor",
+        "description": ""
+      },
+      "cmapartsfortransport.bm-21_wheel": {
+        "name": "Wheel For BM-21",
+        "description": ""
+      },
+      "cmapartsfortransport.front_track": {
+        "name": "Front Wheel Tracktor",
+        "description": ""
+      },
+      "cmapartsfortransport.iav_wheel_aircraft_4": {
+        "name": "Aircraft Wheel",
+        "description": ""
+      },
+      "cmapartsfortransport.iav_wheel_aircraft_6": {
+        "name": "Aircraft Big Wheel",
+        "description": ""
+      },
+      "cmapartsfortransport.iav_wheel_invisible": {
+        "name": "Invisible wheel",
+        "description": ""
+      },
+      "cmapartsfortransport.jgc_wheel": {
+        "name": "Cadillac Wheel",
+        "description": ""
+      },
+      "cmapartsfortransport.kamaz_wheel": {
+        "name": "Wheel for KAMAZ",
+        "description": ""
+      },
+      "cmapartsfortransport.minsk_wheel": {
+        "name": "Wheel For Minsk",
+        "description": ""
+      },
+      "cmapartsfortransport.monospace_wheel": {
+        "name": "Wheel Ford",
+        "description": ""
+      },
+      "cmapartsfortransport.niva_wheel": {
+        "name": "Niva Wheel",
+        "description": ""
+      },
+      "cmapartsfortransport.pobeda_wheel": {
+        "name": "Wheel For GAZ M-20 «Pobeda» ",
+        "description": ""
+      },
+      "cmapartsfortransport.sdkfz234_wheel": {
+        "name": "Wheel For Sdkfz-234",
+        "description": ""
+      },
+      "cmapartsfortransport.taifun_wheel": {
+        "name": "Wheel For KamAZ Taifun",
+        "description": ""
+      },
+      "cmapartsfortransport.uaz_wheel": {
+        "name": "Wheel UAZ",
+        "description": ""
+      },
+      "cmapartsfortransport.ural_wheel": {
+        "name": "Wheel For Truck",
+        "description": ""
+      },
+      "cmapartsfortransport.wheel_btr80a": {
+        "name": "Wheel For BTR-80A",
+        "description": ""
+      },
+      "cmapartsfortransport.wheel_hummer": {
+        "name": "Wheel For Hummer H2",
+        "description": ""
+      },
+      "cmapartsfortransport.wheel_mi": {
+        "name": "Wheel For Helicopter MI-8",
+        "description": ""
+      },
+      "cmapartsfortransport.wheel_mi1": {
+        "name": "Wheel For Helicopter MI-8",
+        "description": ""
+      },
+      "cmapartsfortransport.wheel_pantsir": {
+        "name": "Wheel For Pantsir S1",
+        "description": ""
+      },
+      "cmapartsfortransport.zil_130_wheel_back": {
+        "name": "Wheel ZIL 130 Back",
+        "description": ""
+      },
+      "cmapartsfortransport.zil_130_wheel_front": {
+        "name": "Wheel ZIL 130 Front",
+        "description": ""
+      },
+      "cmapartsfortransport.iav_tracklink": {
+        "name": "Track",
+        "description": ""
+      },
+      "cmapartsfortransport.iav_tracklink_1": {
+        "name": "Track Wide",
+        "description": ""
+      }
+    }
+  }
+}

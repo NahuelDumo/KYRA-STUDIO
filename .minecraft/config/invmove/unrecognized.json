@@ -1,0 +1,25 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screen.IngameMenuScreen": true,
+    "noppes.npcs.client.gui.player.GuiQuestLog": true,
+    "xaero.common.gui.GuiMinimapMain": true,
+    "xaero.map.gui.GuiMap": true,
+    "xaero.map.gui.GuiWorldMapSettings": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatScreen": true,
+    "de.maxhenkel.voicechat.gui.volume.AdjustVolumesScreen": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatSettingsScreen": true,
+    "mcinterface1165.BuilderGUI": true,
+    "net.minecraft.client.gui.social.SocialInteractionsScreen": true,
+    "net.minecraft.client.gui.screen.ConfirmOpenLinkScreen": true,
+    "org.embeddedt.modernfix.screen.ModernFixConfigScreen": true,
+    "net.mcreator.patopasword.gui.LoginGUIGuiWindow": true,
+    "ichttt.mods.firstaid.client.gui.GuiHealthScreen": true,
+    "xaero.common.gui.GuiAddWaypoint": true
+  },
+  "hideBackground": {
+    "noppes.npcs.client.gui.player.GuiQuestLog": true,
+    "net.minecraft.client.gui.social.SocialInteractionsScreen": true,
+    "net.mcreator.patopasword.gui.LoginGUIGuiWindow": true,
+    "ichttt.mods.firstaid.client.gui.GuiHealthScreen": true
+  }
+}
