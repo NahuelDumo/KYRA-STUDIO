@@ -1,4 +1,4 @@
-Utilización de la app para actualización \n
+Utilización de la app para actualización 
 
 Cambiar archivo sexo a true o false (si hay actualización o no hay)
 Agregar los mods a al carpeta mods de .minecraft(solo los que se agregan)
