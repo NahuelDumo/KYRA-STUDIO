@@ -1,4 +1,4 @@
-Utilización de la app para actualización 
+Utilización de la app para actualización:
 
 Cambiar archivo actualizar a true o false (si hay actualización o no hay)
 
