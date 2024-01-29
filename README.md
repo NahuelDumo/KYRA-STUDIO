@@ -1,4 +1,5 @@
-Utilización de la app para actualización:
+Utilización de la app para actualización \n
+
 Cambiar archivo sexo a true o false (si hay actualización o no hay)
 Agregar los mods a al carpeta mods de .minecraft(solo los que se agregan)
 Agregar los NOMBRES  de los mods a borrar en el archivo modsdelete 
