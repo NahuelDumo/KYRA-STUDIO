@@ -42,7 +42,7 @@
   },
   "disable": {
     "onlyInBinding": true,
-    "renderModelPart": true,
+    "renderModelPart": false,
     "disabledModelParts": [
       "head",
       "hat",

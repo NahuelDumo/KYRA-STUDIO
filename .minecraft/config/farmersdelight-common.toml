@@ -60,56 +60,42 @@
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 30
-		#Generate wild cabbages on beaches
-		genWildCabbages = true
 
 	#Sea Beet generation
 	[world.wild_beetroots]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 30
-		#Generate sea beets on beaches
-		genWildBeetroots = true
 
 	#Wild Potato generation
 	[world.wild_potatoes]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 100
-		#Generate wild potatoes on cold biomes (temperature between 0.0 and 0.3)
-		genWildPotatoes = true
 
 	#Wild Carrot generation
 	[world.wild_carrots]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 120
-		#Generate wild carrots on temperate biomes (temperature between 0.4 and 0.9)
-		genWildCarrots = true
 
 	#Wild Onion generation
 	[world.wild_onions]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 120
-		#Generate wild onions on temperate biomes (temperature between 0.4 and 0.9)
-		genWildOnions = true
 
 	#Tomato Vines generation
 	[world.wild_tomatoes]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 100
-		#Generate tomato vines on arid biomes (temperature 1.0 or higher)
-		genWildTomatoes = true
 
 	#Wild Rice generation
 	[world.wild_rice]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 20
-		#Generate wild rice on swamps and jungles
-		genWildRice = true
 
 	#Brown Mushroom Colony generation
 	[world.brown_mushroom_colonies]
