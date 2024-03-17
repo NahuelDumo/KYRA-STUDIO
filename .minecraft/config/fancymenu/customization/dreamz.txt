@@ -182,17 +182,6 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/logo-07.png
-  orientation = top-centered
-  x = -367
-  width = 721
-  action = addtexture
-  actionid = 383ef899-eca9-4dc1-8a7f-6025ce0dd4d31660461555735
-  y = -33
-  height = 406
-}
-
-customization {
   orientation = top-left
   hidden = false
   x = 2
@@ -250,6 +239,17 @@ customization {
 }
 
 customization {
+  path = config/fancymenu/logo-07.png
+  orientation = top-centered
+  x = -367
+  width = 721
+  action = addtexture
+  actionid = 383ef899-eca9-4dc1-8a7f-6025ce0dd4d31660461555735
+  y = -33
+  height = 406
+}
+
+customization {
   path = config/fancymenu/main_menu-06.png
   orientation = top-centered
   x = -88
@@ -275,5 +275,19 @@ customization {
   y = 9
   backgroundnormal = config\fancymenu\main_menu-05.png
   height = 42
+}
+
+customization {
+  orientation = top-left
+  audio_source:18961f9e-0204-4814-a1c7-95bc9a0594e21710626840551 = config/fancymenu/musicmenu.ogg;EXTERNAL_LOCAL;30;0
+  loop = true
+  channel = master
+  x = 28
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = fb1e9772-2e0a-4b00-8255-5e98306fe63e1710626831059
+  y = 50
+  once_per_session = false
+  height = 50
 }
 
