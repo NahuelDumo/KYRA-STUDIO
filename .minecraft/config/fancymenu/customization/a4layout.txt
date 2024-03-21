@@ -183,7 +183,7 @@ customization {
   orientation = top-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = joinserver;kyrastudios.serverminecraft.net%btnaction_splitter_fm%
+  buttonaction = joinserver;kyrastudios2.serveminecraft.net%btnaction_splitter_fm%
   x = -100
   width = 200
   action = addbutton
@@ -205,5 +205,19 @@ customization {
   y = 31
   once_per_session = false
   height = 50
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = quitgame%btnaction_splitter_fm%
+  x = -50
+  width = 100
+  action = addbutton
+  actionid = 29ff3783-8e2a-4857-aa2a-b089d51e474a1711017173431
+  y = 255
+  label = Cerrar Minecraft
+  height = 20
 }
 
