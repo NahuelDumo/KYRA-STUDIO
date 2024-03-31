@@ -4,7 +4,7 @@ Utilización de la app para actualización:
 
 --Agregar los mods a al carpeta mods de .minecraft(solo los que se agregan)
 
---Agregar los NOMBRES  de los mods a borrar en el archivo modsdelete 
+--Agregar los NOMBRES  de los mods a borrar en el archivo modsdelete (Los nombres deben finalizar con .jar)
 
 Nota: SI O SI para esta version de app, debe haber al menos un mod para agregar para que se continue con el proceso de eliminado del mod, sino no funciona
 
