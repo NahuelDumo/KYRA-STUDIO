@@ -6,6 +6,8 @@ Utilización de la app para actualización:
 
 --Agregar los NOMBRES  de los mods a borrar en el archivo modsdelete 
 
+Nota: SI O SI para esta version de app, debe haber al menos un mod para agregar para que se continue con el proceso de eliminado del mod, sino no funciona
+
 Utilización de la app para descarga inicial:
 
 --Setear el valor de actulizar en false
@@ -13,3 +15,5 @@ Utilización de la app para descarga inicial:
 --Poner todas las carpetas que se hagan falta sobreescribir en un inicio dentro de .minecraft
 
 --Recordar colocar la imagen promocional en background. Sera el fondo que tenga el iniciador
+
+
