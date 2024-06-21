@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "C C",
+        "CCC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "C": {
+            "item": "minecraft:cherry_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:cherry_boat",
+        "count": 1
+    }
+}

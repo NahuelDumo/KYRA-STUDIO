@@ -1,0 +1,7 @@
+{
+  "forceEnableCollisionList": [],
+  "disableCollisionForAllBlocks": false,
+  "forceDisableCollisionList": [
+    "minecraft:barrier"
+  ]
+}

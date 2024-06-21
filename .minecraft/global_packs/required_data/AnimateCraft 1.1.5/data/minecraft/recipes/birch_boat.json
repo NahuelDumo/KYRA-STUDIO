@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "B B",
+        "BBB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "B": {
+            "item": "minecraft:birch_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:birch_boat",
+        "count": 1
+    }
+}

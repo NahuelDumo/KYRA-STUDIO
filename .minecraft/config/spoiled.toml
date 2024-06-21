@@ -1,0 +1,9 @@
+[general]
+containerModifier = ["minecraft:shulker_box,0", "minecraft:chest,0.4", "minecraft:barrel,0.2"]
+spoilRate = 30
+initializeSpoiling = true
+mergeSpoilingFood = true
+spoilEverything = false
+spoilBlacklist = ["minecraft:rotten_flesh", "minecraft:enchanted_golden_apple", "minecraft:golden_apple", "minecraft:golden_carrot"]
+defaultSpoilTime = 80
+defaultSpoilItem = "lankeren_essential:rotten_unidentified_food"

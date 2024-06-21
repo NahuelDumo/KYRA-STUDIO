@@ -1,0 +1,7 @@
+#传送门出现僵尸疣猪
+execute as @r[tag=!savior,predicate=nether_invasion:overworld] at @s run execute as @e[tag=portal,distance=..64,sort=nearest,limit=1,predicate=!nether_invasion:water] at @s if predicate nether_invasion:chance_20 if block ~1 ~1 ~ minecraft:nether_portal unless entity @e[type=zoglin,distance=..64] run summon zoglin ~2 ~ ~2 {Tags:["invader"]}
+execute as @r[tag=!savior,predicate=nether_invasion:overworld] at @s run execute as @e[tag=portal,distance=..64,sort=nearest,limit=1,predicate=!nether_invasion:water] at @s if predicate nether_invasion:chance_20 if block ~-1 ~1 ~ minecraft:nether_portal unless entity @e[type=zoglin,distance=..64] run summon zoglin ~2 ~ ~2 {Tags:["invader"]}
+execute as @r[tag=!savior,predicate=nether_invasion:overworld] at @s run execute as @e[tag=portal,distance=..64,sort=nearest,limit=1,predicate=!nether_invasion:water] at @s if predicate nether_invasion:chance_20 if block ~ ~1 ~1 minecraft:nether_portal unless entity @e[type=zoglin,distance=..64] run summon zoglin ~2 ~ ~2 {Tags:["invader"]}
+execute as @r[tag=!savior,predicate=nether_invasion:overworld] at @s run execute as @e[tag=portal,distance=..64,sort=nearest,limit=1,predicate=!nether_invasion:water] at @s if predicate nether_invasion:chance_20 if block ~ ~1 ~-1 minecraft:nether_portal unless entity @e[type=zoglin,distance=..64] run summon zoglin ~2 ~ ~2 {Tags:["invader"]}
+
+schedule function nether_invasion:loop_1m_2 60s

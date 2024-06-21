@@ -1,0 +1,18 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 695458621,
+      "exclusion_zone": {
+        "other_set": "minecraft:villages",
+        "chunk_count": 4
+      },
+      "separation": 32,
+      "spacing": 50
+    },
+    "structures": [
+      {
+        "structure": "nether_invasion:portal_outpost",
+        "weight": 1
+      }
+    ]
+  }

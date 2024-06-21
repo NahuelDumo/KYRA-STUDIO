@@ -1,0 +1,4 @@
+execute at @a[predicate=lkr:extreme_hot_biomes,gamemode=!spectator] if predicate lkr:rare_tick1 run particle minecraft:falling_water ^-.2 ^1 ^.3 0 0 0 0 5
+execute at @a[predicate=lkr:extreme_hot_biomes,gamemode=!spectator] if predicate lkr:rare_tick1 run particle minecraft:falling_water ^.4 ^-.1 ^.2 0 0 0 0 5
+execute at @a[predicate=lkr:extreme_hot_biomes,gamemode=!spectator] if predicate lkr:rare_tick1 run particle minecraft:falling_water ^-.21 ^.1 ^-.2 0 0 0 0 5
+execute at @a[predicate=lkr:extreme_hot_biomes,gamemode=!spectator] if predicate lkr:rare_tick1 run particle minecraft:falling_water ^.23 ^.1 ^-.4 0 0 0 0 5

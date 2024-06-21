@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "ladder",
+        "vine",
+        "scaffolding",
+        "weeping_vines",
+        "weeping_vines_plant",
+        "twisting_vines",
+        "twisting_vines_plant",
+        "iron_bars",
+        "chain",
+        "big_dripleaf_stem",
+        "bamboo"
+    ]
+}

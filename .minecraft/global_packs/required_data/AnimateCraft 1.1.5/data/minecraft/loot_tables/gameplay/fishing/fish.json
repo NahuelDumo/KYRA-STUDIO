@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_bluegill"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_rainbow_trout"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_catfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_stingray"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_koi"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_shrimp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_prawn"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_anglerfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_clam"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_goldfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 0,
+          "name": "wildlife:raw_bettafish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 13,
+          "name": "minecraft:pufferfish"
+        }
+      ]
+    }
+  ]
+}

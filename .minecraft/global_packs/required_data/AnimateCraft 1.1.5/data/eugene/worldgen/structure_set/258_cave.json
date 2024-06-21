@@ -1,0 +1,14 @@
+{
+  "structures": [
+      {
+          "structure": "eugene:258_cave",
+          "weight": 1
+      }
+  ],
+  "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 130,
+      "separation": 70,
+      "salt": 5957481
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:rain_penetrable",
+	"#c:glass_panes",
+	"#minecraft:leaves",
+	"minecraft:water",
+	"minecraft:lava",
+	"#minecraft:trapdoors",
+	"#minecraft:doors"
+  ]
+}

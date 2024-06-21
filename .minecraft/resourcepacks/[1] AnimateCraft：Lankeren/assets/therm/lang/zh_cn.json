@@ -1,0 +1,13 @@
+{
+  "item.therm.gold_sweet_berries": "闪亮甜浆果",
+  "item.therm.ice_juice": "魔力冰汁",
+  "item.therm.thermometer": "测温计",
+
+  "block.therm.ice_box_empty": "空冰盒",
+  "block.therm.ice_box_freezing": "冷冻中的冰盒",
+  "block.therm.ice_box_frozen": "结冰的冰盒",
+  "block.therm.fireplace": "砖炉",
+
+  "effect.therm.cooling": "冷却"
+
+}

@@ -1,0 +1,2 @@
+tellraw @p [{"keybind":"tip.item.backpack","color":"white","bold":true,"italic":false},{"text":"\n"},{"keybind":"tip.item.spyglass","color":"white","bold":true,"italic":false},{"text":"\n"},{"keybind":"tip.item.atlas","color":"white","bold":true,"italic":false}]
+schedule function lkr:guide3 4s

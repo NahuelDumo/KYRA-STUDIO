@@ -1,0 +1,6 @@
+{
+	"wallRunDurationTicks": 60,
+	"rollStaminaCost": 50,
+	"rollSpeedBoostMult": 1.0,
+	"slideSpeedBoostMult": 1.0
+}

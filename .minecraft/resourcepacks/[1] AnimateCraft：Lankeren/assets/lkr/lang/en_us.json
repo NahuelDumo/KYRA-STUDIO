@@ -1,0 +1,111 @@
+{
+    "tip.compass":"Having compass, coordinate will be displayed",
+    "tip.spyglass":"Press C to use the Spyglass",
+    "tip.clock":"Having clock, time will be displayed",
+    "tip.armor.weight":"Some armors are heavy, wear them when necessary!",
+    "tip.food.spoiled":"Put food into chests/barrels to slow down spoiling",
+    "tip.food.spoiled.2":"Barrels can maintain food longer than chests do. Shulker boxs can save them forever! You can also craft the food in different spoiling states to merge'em toghter",
+    "tip.parrot":"slow falling when parrot on shoudler! Crouch to lift when having two",
+    "tip.crafting":"Read recipe book when parts of material missing",
+    "tip.bed":"Sleep when 100% tired. Sweet milk can help sleeping!",
+    "tip.campfire":"Campfire can avoid mobs spawning in 50m",
+
+    "this.ability.requires.at.least.level.1":"This Ability requires At least level 1",
+    "item.eugene.rotten_axe":"Rotten Axe",
+    "item.eugene.rooten_axe.desc": "When above lv.1, press T to release an Axe Storm forward",
+    "item.eugene.stone.sword": "Sword in the Stone",
+    "item.eugene.stone.sword.desc": "When above lv.1, press T to use Whirlwind.",
+    "item.eugene.backpack.desc": "Press B to open",
+    "item.eugene.ice.water.desc": "Who knows? These entertaning drinks are now used to help you withstand the heat. Mine packed ice to get crushed ice, and you can get more of these!",
+    "learnt.gbs.english":"You Learnt a Kung-Fu!",
+    "gbs.desc.english":"You just learnt the Golden Bell Shield. When your leverls are above 10, press G to use it! You will gain full resistence for 10 seconds, but it costs 10 levels of xp. Use it wisely!",
+
+    "item.eugene.patrick_star": "Wang Bao Bao's Patrick Star",
+    "item.eugene.focus": "258's Focus",
+    "item.eugene.focus.desc": "This thing is locked somehow, yet it can still speak, how incredible.",
+    "mob.eugene.heket_frog": "Heket",
+
+    "tittle.0": "It seems a long time had passed...",
+    "tittle.1": "Click white charaters to continue",
+
+
+    "tip.0": "(Click here to skip the guide)",
+    "tip.1": "(Click here to view default movement keybinds)",
+    "tip.2": "(Click here to view default item keybinds)",
+
+    "tip.move.angle": "Press V to toggle perspective",
+    "tip.move.special.skills": "Press T to use special ability of some weapons",
+    "tip.horse.whistle": "Press H to call the horses you tamed within 128 blocks",
+    "tip.sort": "Press Tab to sort your inventory",
+    "tip.roll": "Press R to roll",
+
+    "tip.item.backpack": "Press B to open Backpack in inventory.",
+    "tip.item.spyglass": "Press C to use Spyglass in inventory",
+    "tip.item.atlas": "Press M to open the map",
+
+    "message.0": "[Allay] Wake up! You This is not the world you know...",
+    "message.1": "[Allay] The climate here has been harsher, bofore you get used to it, feeling weak is normal. Try to do some warm-up later.",
+    "message.2": "[Allay] Sorry for bringing you to this distant furture. I've brought some of your items along, they are quite worn out though. Do you still remeber how to use them?",
+    "message.3": "[Allay] Danger is happening, portals are activated again, Those forces have been back here... None of these should ever happend again, the disasters in history cannot occur again...",
+    "message.4": "[Allay] I wish I could help you, but I cannot see everything. But villagers may know something! Ride on your horse friend, go to the village on the map, find the clue to save the Overwolrd before it's too late!",
+
+    "tittle.tip.cold": "You're in a Cold Biome!",
+    "desc.tip.cold": "Wear leather clothes and get close to fire to keep worm",
+    "tittle.tip.hot": "You're in a Hot Biome!",
+    "desc.tip.hot": "Take off leather clothes and drink water/ice water to stay cool",
+    "message.thermite": "Caution! Take care of your thermometer, Green means fine, Red means Hot, Blue means Cold. Outlined in Red means getting hotter, in Blue means cooler. Start shaking means about to be unbearable! Take action in time! \n If you suffered from being too cold/hot, you may find yourself unable to recover the saturation. Eat Golden Potatos or dandelion stew to heal",
+
+    "tittle.portal_witness": "Gosh, what is happening...",
+    "message.portal_witness": "The portals are activated again! Destroy them to stop invaders from the Nether. But is there a way to stop all for good?",
+
+    "message.villager.ask.about.portals": "[villager] Did you see? Those mobs from the portals! They wouldn't come out and hurt people when the beacon was still there... but pillagers activated the portals!",
+    "Senior.Cartographer":"Senior Cartographer",
+    "tittle.save.cartographer": "Mission: Save the Senior Cartographer",
+    "tittle.save.cartographer.desc":"A villager is in danger! Do something",
+    "message.save.senior.cartographer":"[Senior Cartographer] Golems! Help! The pillagers have been chasing after me all along!",
+
+    "tittle.go.desert.village": "Mission: Find Desert Village",
+    "tittle.go.desert.village.desc":"Go to the library there, find the answer in the book",
+    "message.guide.senior.cartographer":"[Senior Cartographer] Thank you for saving me! Listen, pillagers have reactivated the ancient portals! Legend said that terrifying creatures lurking inside... The dager is close! Right! Go to the Desert Village, Their libraries record the ancient history, you may find the way to stop those pillagers! I'm afraid I don't have the map... I could only give you a compass, it can help you see the coordinates! Take take it and set off quickly!",
+ 
+    "tittle.letter.to.future":"Letter to the Furture",
+    "letter.to.future.1":"Poor future guy:\n  If you are reading this letter, it means the beacons are gone, the civilazation I protect is fallen...\n  In my time, Withers used to ravaged the land,the living and the undead became enemies. Fortunately, I led the people to defeat them.", 
+    "letter.to.future.2":"Their collapse shook the entire desert, and the soul fragments they dropped corroded large sand and dirt. The fragments were too powerful for me to completely erase, so I had to bring those sand to the Nether and used towers to suppress them underneath.",
+    "letter.to.future.3":"But their cores are so pure, scattering bright light. I made it into a beacon and made the beacon tower stand tall in the desert, guarding world peace.\n  History is recorded in the annals of history and passed down from generation to generation.",
+    "letter.to.future.4":"But I know that peace will not last. I wrote this and hide it in the most dangerous yet safe place in the village, so that even if ancient books in the library are gone, you still have a chance to know what happened in the past.\n Good luck to you, future guy. Hope you can save the future, again",
+    "letter.to.future.5":">Click to accept the next mission!<",
+    "beacon.mission.on": "Mission: Bring Home the Beacon",
+    "beacon.mission.on.desc":"It seems you need to activate the beacon to save the Overworld!",
+
+    "ballad.of.trader":"[Wander Trader's Ballad]\n Sea of sand, solemn and stable. shining like a star, lying in the Temple... \n Stars blink, beams strike, protect all directions, gentle all undead...\n Almighty the Creator, wisdom casts a peaceful light...\n Lights manifest graces, graces shine the world, and glory is supreme...\n All the creatures pray, may the creator bless them forever.",
+
+    "tip.81.wither.skeletons":"It's said that they drop a skull every 81 deaths...",
+    "tip.wither.skull":"After all these fights! Use the skull really wisely!",
+
+    "tittle.savior": "FROM NOW ON, THE NIGHT IS NO LONGER DARK.",
+    "message.savior": "The Overworld is now in delicate peace. If you break it, THEY are gonna punish you for that.",
+    "message.beacon.breaker": "You lead the world into conflicts again!",
+
+    "message.dragon_around":"That doesn't sound good... is that a dragon?",
+    "tittle.dragon.raid": "Dragon Raid!!!",
+    "desc.dragon.raid": "This is not a place to fight, leave!",
+    "tittle.dragon_killed": "End Liberator",
+
+    "book.end.ship.tittle": "Ender Log",
+    "book.end.ship.author": "Eugene",
+    "book.end.ship.lore": "When can we go back to the Overworld...",
+    "book.end.ship.page.1": "No way out. This dimension only consists of a large rock and a circle of small stones surrounding it. We are trapped here...",
+
+    "book.end.city.tittle": "Ender Diary",
+    "book.end.city.author": "Eugene",
+    "book.end.city.lore": "I realized I have to keep diary, cause our memories go vague...",
+    "book.end.city.page.1": "We placed an Ender Crystal on the main island so that the dragon won't be attracted by the beacons in the main world...",
+    "book.end.city.page.2": "Now everyone is eating chorus fruit. We discovered that it gives us the ability to teleport ourselves.",
+    "book.end.city.page.3": "Eating chorus fruit has turned everyone's skin purple, but now we have gained control over the direction of teleportation!",
+
+    "book.desert.village.tittle": "Book cf Pyramid",
+    "book.desert.village.page.1":"The b  ccns were placed and pr  ct d in the pyramids, k  ng us  e",
+
+    "mob.eugene.blue_demon": "Blue Demon",
+    "bossbar.drown.king": "Blue Demon"
+}

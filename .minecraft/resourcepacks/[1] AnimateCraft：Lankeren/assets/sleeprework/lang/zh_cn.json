@@ -1,0 +1,40 @@
+{
+  "sleeprework.sleep.not_tired": "你现在无法入睡，因为不够疲惫",
+  "sleeprework.commands.tired.set.success": "Set tiredness for %s players",
+  "sleeprework.commands.tired.add.success": "Added tiredness for %s players",
+  "sleeprework.commands.tired.get": "%s : %s - %s",
+  "sleeprework.tutorial": "\n\n这是你的疲劳值。 当它达到 %1$s%%, 你便可以入睡。\n当它达到 %2$s%%, 幻翼将会生成",
+  "sleeprework.tutorial.hide": "\n点击 [%s] 关闭此信息",
+  "sleeprework.display.tiredness": "疲劳值: %s%%",
+  "sleeprework.sleep.timeout": "你通过休息恢复了足够的体力！",
+
+  "effect.sleeprework.liveliness": "活力",
+  "item.minecraft.tipped_arrow.effect.liveliness": "活力箭头",
+  "item.minecraft.tipped_arrow.effect.long_liveliness": "活力箭头",
+  "item.minecraft.tipped_arrow.effect.strong_liveliness": "活力箭头",
+  "item.minecraft.potion.effect.liveliness": "活力药水",
+  "item.minecraft.potion.effect.long_liveliness": "活力药水",
+  "item.minecraft.potion.effect.strong_liveliness": "活力药水",
+  "item.minecraft.splash_potion.effect.liveliness": "喷溅型活力药水",
+  "item.minecraft.splash_potion.effect.long_liveliness": "喷溅型活力药水",
+  "item.minecraft.splash_potion.effect.strong_liveliness": "喷溅型活力药水",
+  "item.minecraft.lingering_potion.effect.liveliness": "滞留型活力药水",
+  "item.minecraft.lingering_potion.effect.long_liveliness": "滞留型活力药水",
+  "item.minecraft.lingering_potion.effect.strong_liveliness": "滞留型活力药水",
+
+
+  "effect.sleeprework.drowsiness": "嗜睡",
+  "item.minecraft.tipped_arrow.effect.drowsiness": "嗜睡箭头",
+  "item.minecraft.tipped_arrow.effect.long_drowsiness": "嗜睡箭头",
+  "item.minecraft.tipped_arrow.effect.strong_drowsiness": "嗜睡箭头",
+  "item.minecraft.potion.effect.drowsiness": "嗜睡药水",
+  "item.minecraft.potion.effect.long_drowsiness": "嗜睡药水",
+  "item.minecraft.potion.effect.strong_drowsiness": "嗜睡药水",
+  "item.minecraft.splash_potion.effect.drowsiness": "喷溅型嗜睡药水",
+  "item.minecraft.splash_potion.effect.long_drowsiness": "喷溅型嗜睡药水",
+  "item.minecraft.splash_potion.effect.strong_drowsiness": "喷溅型嗜睡药水",
+  "item.minecraft.lingering_potion.effect.drowsiness": "滞留型嗜睡药水",
+  "item.minecraft.lingering_potion.effect.long_drowsiness": "滞留型嗜睡药水",
+  "item.minecraft.lingering_potion.effect.strong_drowsiness": "滞留型嗜睡药水"
+}
+

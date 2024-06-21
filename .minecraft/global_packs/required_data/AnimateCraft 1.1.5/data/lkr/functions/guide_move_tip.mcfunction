@@ -1,0 +1,2 @@
+tellraw @p [{"keybind":"tip.move.angle","color":"white","bold":true,"italic":false},{"text":"\n"},{"keybind":"tip.move.special.skills","color":"white","bold":true,"italic":false},{"text":"\n"},{"keybind":"tip.horse.whistle","color":"white","bold":true,"italic":false},{"text":"\n"},{"keybind":"tip.sort","color":"white","bold":true,"italic":false},{"text":"\n"},{"keybind":"tip.roll","color":"white","bold":true,"italic":false}]
+schedule function lkr:guide2 4s

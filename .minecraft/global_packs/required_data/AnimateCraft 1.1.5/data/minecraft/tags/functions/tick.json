@@ -1,0 +1,7 @@
+{
+    "values": [
+        "lkr:tick",
+        "nether_invasion:tick",
+        "dragon_raid:tick"
+    ]
+}

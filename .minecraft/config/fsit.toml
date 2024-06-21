@@ -1,0 +1,16 @@
+config_version = 4
+
+[sneak]
+enabled = true
+angle = 66.0
+delay = 202
+
+[sittable]
+enabled = true
+radius = 2
+blocks = []
+tags = ["minecraft:stairs", "minecraft:slabs", "minecraft:logs"]
+
+[riding]
+enabled = false
+radius = 3

@@ -1,0 +1,12 @@
+{
+  "modmenu.summaryTranslation.chicken_nerf": "Sem ovos aleatórios",
+  "modmenu.descriptionTranslation.chicken_nerf": "Previne que uma galinha aleatória ponha ovos. Ao invés disso, galinhas reproduzindo produzirão ovos.",
+  "text.chicken_nerf.no_config_screen.title": "Configuração do Nerf de Galinha Indisponível",
+  "text.chicken_nerf.no_config_screen.message": "Instale Cloth Config para ativar as configurações.",
+  "text.autoconfig.chicken_nerf.title": "Configuração do Galinha Nerf",
+  "text.autoconfig.chicken_nerf.option.minLaidEggs": "Mínimo de ovos que galinhas põem",
+  "text.autoconfig.chicken_nerf.option.maxLaidEggs": "Máximo de ovos que galinhas põem",
+  "text.autoconfig.chicken_nerf.option.averageChickensFromEgg": "Média de galinhas por um ovo",
+  "text.autoconfig.chicken_nerf.option.enableTranslationFetching": "Baixar atualizações de tradução",
+  "text.autoconfig.chicken_nerf.option.enableTranslationFetching.@Tooltip": "Baixe traduções do Crowdin quando o jogo abrir"
+}

@@ -1,0 +1,12 @@
+{
+  "modmenu.summaryTranslation.chicken_nerf": "无随机蛋",
+  "modmenu.descriptionTranslation.chicken_nerf": "防止随机产蛋。繁殖鸡才会产蛋。",
+  "text.chicken_nerf.no_config_screen.title": "“Chicken Nerf”配置不可用",
+  "text.chicken_nerf.no_config_screen.message": "§c安装“Cloth Config”以启用配置。",
+  "text.autoconfig.chicken_nerf.title": "“Chicken Nerf”配置",
+  "text.autoconfig.chicken_nerf.option.minLaidEggs": "最低产蛋率",
+  "text.autoconfig.chicken_nerf.option.maxLaidEggs": "最高产蛋率",
+  "text.autoconfig.chicken_nerf.option.averageChickensFromEgg": "一个鸡蛋的平均生育率",
+  "text.autoconfig.chicken_nerf.option.enableTranslationFetching": "下载翻译更新",
+  "text.autoconfig.chicken_nerf.option.enableTranslationFetching.@Tooltip": "游戏启动时从 Crowdin 下载翻译"
+}

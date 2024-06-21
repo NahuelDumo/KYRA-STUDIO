@@ -1,0 +1,20 @@
+{
+	"diveRoll": {
+		"enabled": true,
+		"staminaCost": 50,
+		"speedBoostMult": 1.0,
+		"whenSwimming": false,
+		"whenFlying": false
+	},
+	"slide": {
+		"enabled": true,
+		"staminaCost": 10,
+		"speedBoostMult": 1.0
+	},
+	"wallRun": {
+		"enabled": true,
+		"staminaCost": 0,
+		"speedBoostMult": 1.0,
+		"durationTicks": 60
+	}
+}

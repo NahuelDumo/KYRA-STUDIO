@@ -1,0 +1,1 @@
+tellraw @p[tag=!guided] [{"keybind":"message.2","color":"aqua"},{"keybind":"tip.2","color":"white","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/trigger item_keybinds add 1"}}]

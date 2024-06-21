@@ -1,0 +1,2 @@
+summon farmers_dislikes:rat ~ ~ ~ {Tags:["spawned_rat"],ActiveEffects:[{Id:14,Amplifier:0,Duration:200,ShowParticles:0b}]}
+execute as @e[tag=spawned_rat,sort=nearest] at @s run spreadplayers ~ ~ 30 30 false @s

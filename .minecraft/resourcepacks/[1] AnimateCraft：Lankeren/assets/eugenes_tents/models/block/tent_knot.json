@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "eugenes_tents:block/tent_knot",
+    "top": "eugenes_tents:block/white_wool",
+    "side": "eugenes_tents:block/tent_wool",
+    "overlay": "eugenes_tents:block/tent_knot",
+    "particle": "eugenes_tents:block/tent_knot"
+  },
+  "render_type": "cutout_mipped"
+}

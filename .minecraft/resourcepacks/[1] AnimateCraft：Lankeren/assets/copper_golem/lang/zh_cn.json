@@ -1,0 +1,30 @@
+{
+  "block.copper_golem.oxidized_copper_button": "氧化铜按钮",
+  "block.copper_golem.weathered_copper_button": "风化铜按钮",
+  "block.copper_golem.exposed_copper_button": "锈蚀铜按钮",
+  "block.copper_golem.copper_button": "铜按钮",
+
+  "block.copper_golem.waxed_oxidized_copper_button": "涂蜡氧化铜按钮",
+  "block.copper_golem.waxed_weathered_copper_button": "涂蜡风化铜按钮",
+  "block.copper_golem.waxed_exposed_copper_button": "涂蜡锈蚀铜按钮",
+  "block.copper_golem.waxed_copper_button": "涂蜡铜按钮",
+
+  "block.copper_golem.oxidized_copper_pressure_plate": "氧化铜压力板",
+  "block.copper_golem.weathered_copper_pressure_plate": "风化铜压力板",
+  "block.copper_golem.exposed_copper_pressure_plate": "锈蚀铜压力板",
+  "block.copper_golem.copper_pressure_plate": "铜压力板",
+
+  "block.copper_golem.waxed_oxidized_copper_pressure_plate": "涂蜡氧化铜压力板",
+  "block.copper_golem.waxed_weathered_copper_pressure_plate": "涂蜡风化铜压力板",
+  "block.copper_golem.waxed_exposed_copper_pressure_plate": "涂蜡锈蚀铜压力板",
+  "block.copper_golem.waxed_copper_pressure_plate": "涂蜡铜压力板",
+
+  "entity.copper_golem.copper_golem": "铜傀儡",
+
+  "subtitles.entity.copper_golem.step": "脚步声",
+  "subtitles.entity.copper_golem.ambient": "铜傀儡咕哝",
+  "subtitles.entity.copper_golem.hurt": "铜傀儡受伤",
+  "subtitles.entity.copper_golem.no": "铜傀儡嗯哼",
+  "subtitles.entity.copper_golem.death": "铜傀儡死亡",
+  "subtitles.entity.copper_golem.whirl": "齿轮旋转"
+}

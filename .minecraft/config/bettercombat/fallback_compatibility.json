@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "blacklist_item_id_regex": "pickaxe|farmersdelight",
+  "blacklist_item_id_regex": "pickaxe",
   "fallback_compatibility": [
     {
       "item_id_regex": "claymore|great_sword|greatsword",
@@ -27,8 +27,12 @@
       "weapon_attributes": "bettercombat:glaive"
     },
     {
-      "item_id_regex": "spear|lance",
+      "item_id_regex": "spear",
       "weapon_attributes": "bettercombat:spear"
+    },
+    {
+      "item_id_regex": "lance",
+      "weapon_attributes": "bettercombat:lance"
     },
     {
       "item_id_regex": "anchor",

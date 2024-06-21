@@ -1,0 +1,7 @@
+#主世界传送门前生成掠夺者
+execute as @r[tag=!savior,predicate=nether_invasion:overworld] at @s run execute as @e[tag=portal,distance=..64,sort=nearest,limit=1,predicate=!nether_invasion:water] at @s if predicate nether_invasion:chance_20 if block ~1 ~1 ~ minecraft:nether_portal unless entity @e[type=pillager,distance=..64] run function nether_invasion:summon_illager
+execute as @r[tag=!savior,predicate=nether_invasion:overworld] at @s run execute as @e[tag=portal,distance=..64,sort=nearest,limit=1,predicate=!nether_invasion:water] at @s if predicate nether_invasion:chance_20 if block ~-1 ~1 ~ minecraft:nether_portal unless entity @e[type=pillager,distance=..64] run function nether_invasion:summon_illager
+execute as @r[tag=!savior,predicate=nether_invasion:overworld] at @s run execute as @e[tag=portal,distance=..64,sort=nearest,limit=1,predicate=!nether_invasion:water] at @s if predicate nether_invasion:chance_20 if block ~ ~1 ~1 minecraft:nether_portal unless entity @e[type=pillager,distance=..64] run function nether_invasion:summon_illager
+execute as @r[tag=!savior,predicate=nether_invasion:overworld] at @s run execute as @e[tag=portal,distance=..64,sort=nearest,limit=1,predicate=!nether_invasion:water] at @s if predicate nether_invasion:chance_20 if block ~ ~1 ~-1 minecraft:nether_portal unless entity @e[type=pillager,distance=..64] run function nether_invasion:summon_illager
+
+schedule function nether_invasion:loop_1m_3 60s
