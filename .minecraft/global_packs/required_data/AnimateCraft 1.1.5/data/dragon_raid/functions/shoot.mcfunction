@@ -1,1 +1,0 @@
-summon minecraft:armor_stand ~ ~1 ~ {Invulnerable:1b,Marker:1b,Silent:1b,NoGravity:0b,HandItems:[{id:"minecraft:diamond_sword",Count:1b,Damage:0s},{}],ShowArms:1,DisabledSlots:2039552,Rotation:[0f],Pose:{Head:[0f,0f,0f],Body:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[180f,90f,92f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f]}}

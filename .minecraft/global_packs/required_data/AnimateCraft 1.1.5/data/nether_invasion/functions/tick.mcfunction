@@ -1,1 +1,0 @@
-execute if predicate nether_invasion:chance_10 run function nether_invasion:real_tick

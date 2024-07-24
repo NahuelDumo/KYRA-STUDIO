@@ -1,3 +1,0 @@
-function farmers_dislikes:loop_1s
-schedule function farmers_dislikes:loop_10s 1s
-schedule function farmers_dislikes:loop_300s 10s

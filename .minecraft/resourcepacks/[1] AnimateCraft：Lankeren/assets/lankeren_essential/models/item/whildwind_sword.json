@@ -1,6 +1,0 @@
-{
-  "parent": "lankeren_essential:custom/whildwind_sword",
-  "textures": {
-    "layer0": "lankeren_essential:item/whildwind_sword"
-  }
-}

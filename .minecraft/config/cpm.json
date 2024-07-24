@@ -1,25 +1,10 @@
 {
-  "editorLastVersion": "0.6.13a",
-  "playerSettings": {},
-  "globalSettings": {},
-  "blockedList": {},
-  "serverSettings": {},
-  "editorSelectMouseButton": 0.0,
-  "titleScreenButton": false,
-  "friendSettings": {},
-  "keybinds": {
-    "qa_1_mode": "press",
-    "qa_1": "gxfz"
-  },
   "editorDragMouseButton": -1.0,
+  "editorLastVersion": "0.6.17b",
   "editorMenuMouseButton": 1.0,
-  "editorRotateMouseButton": 1.0,
-  "safetyProfiles": {},
-  "editorRecentProjects": [
-    "C:\\Users\\StarLevi\\AppData\\Roaming\\.minecraft\\sad.cpmproject"
-  ],
-  "friendList": {},
-  "editorScale": 2.0,
-  "editorUVAreaAlpha": 0.8,
-  "selectedModel": "lankerenanimodel1.0.cpmmodel"
+  "editorRecentProjects": [],
+  "editorRotateMouseButton": 2.0,
+  "editorSelectMouseButton": 0.0,
+  "keybinds": {},
+  "titleScreenButton": true
 }

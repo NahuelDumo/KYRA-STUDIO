@@ -1,2 +1,0 @@
-execute if entity @e[type=wither] run execute at @e[type=wither] run effect give @e[distance=..9,type=!minecraft:wither_skull,type=!minecraft:wither] minecraft:levitation 1 
-schedule function lkr:loop_1s 1s

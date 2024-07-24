@@ -1,2 +1,0 @@
-execute if predicate farmers_dislikes:middle_chance at @a at @e[predicate=farmers_dislikes:dunging_animal,nbt={OnGround:1b},sort=random,limit=5,distance=..72] run fill ~ ~ ~ ~ ~ ~ farmers_dislikes:dung_block replace #farmers_dislikes:dung_droppable
-schedule function farmers_dislikes:loop_300s 300s

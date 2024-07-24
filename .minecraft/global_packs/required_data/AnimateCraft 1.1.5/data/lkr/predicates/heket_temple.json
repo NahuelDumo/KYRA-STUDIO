@@ -1,9 +1,0 @@
-{
-  "condition": "minecraft:location_check",
-  "predicate": {
-    "structure": "eugene:heket_temple",
-    "fluid": {
-      "tag": "minecraft:water"
-    }
-  }
-}
