@@ -1,9 +1,4 @@
-Bienvenidos al AnimParadise 4
-
-Por esta seccion informaremos
-que se agregara en futuras
-Actualizaciones..
-
+IMPORTANTE: trata de no tener nada en las carpetas MODS,CONFIG,RESOURCEPACKS. antes de descargar.
 
 
 
