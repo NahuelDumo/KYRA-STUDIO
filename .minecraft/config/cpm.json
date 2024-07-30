@@ -2,9 +2,14 @@
   "editorDragMouseButton": -1.0,
   "editorLastVersion": "0.6.17b",
   "editorMenuMouseButton": 1.0,
-  "editorRecentProjects": [],
+  "editorRecentProjects": [
+    "C:\\Users\\StarLevi\\AppData\\Roaming\\.minecraft\\asd.cpmproject",
+    "C:\\Users\\StarLevi\\AppData\\Roaming\\.minecraft\\a.cpmproject"
+  ],
   "editorRotateMouseButton": 2.0,
   "editorSelectMouseButton": 0.0,
   "keybinds": {},
-  "titleScreenButton": true
+  "titleScreenButton": true,
+  "serverSettings": {},
+  "blockedList": {}
 }
